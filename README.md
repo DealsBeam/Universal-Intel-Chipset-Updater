@@ -1,8 +1,8 @@
 # Universal Intel Chipset Updater 🚀
 
-[![GitHub release](https://img.shields.io/github/v/release/FirstEver-eu/Intel-Chipset-Driver-Updater)](https://github.com/FirstEver-eu/Intel-Chipset-Driver-Updater/releases)
-[![GitHub license](https://img.shields.io/github/license/FirstEver-eu/Intel-Chipset-Driver-Updater)](https://github.com/FirstEver-eu/Intel-Chipset-Driver-Updater/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/FirstEver-eu/Intel-Chipset-Driver-Updater)](https://github.com/FirstEver-eu/Intel-Chipset-Driver-Updater/issues)
+[![GitHub release](https://img.shields.io/github/v/release/FirstEverTech/Universal-Intel-Chipset-Updater)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases)
+[![GitHub license](https://img.shields.io/github/license/FirstEverTech/Universal-Intel-Chipset-Updater)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/FirstEverTech/Universal-Intel-Chipset-Updater)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
 [![Windows](https://img.shields.io/badge/Windows-10%2B-blue)](https://www.microsoft.com/windows)
 
 Automated tool to detect and update Intel chipset drivers to the latest versions. Supports all Intel platforms from Sandy Bridge (2nd Gen) to the latest Panther Lake (15th Gen).
