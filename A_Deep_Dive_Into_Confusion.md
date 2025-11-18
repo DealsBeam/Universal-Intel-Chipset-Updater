@@ -132,6 +132,21 @@ Direct link to one of the official Chipset INF Utility drivers:
 
 ---
 
+## 🙃 Making Sense of the Chaos
+
+The Intel Chipset Device Software package has been with us for about a quarter of a century. Early versions were released in the early 2000s — for example, version 3.20.1008 has a release date of June 9, 2001. Over time, Intel kept adding support for new devices and removing older, legacy ones as they reached end-of-life. Because of that constant churn, it's extremely difficult to determine the last driver version for every single device… unless you collect all installer packages and check manually — which is exactly what I did.
+
+I downloaded every Intel installer I could find from various corners of the internet — 88 packages in total, starting from 10.0.13.0 and ending at 10.1.20314.8688. I then extracted all of them, giving me access to 4,832 individual driver files. Each driver package contains multiple Hardware Identifiers (HWIDs) referencing specific devices — in my dataset that resulted in 2,641 unique HWIDs. Based on that, I built a database containing 82,663 relations, and after filtering and deduplication I generated a complete list of all supported devices along with their newest driver version and the package in which it appears.
+
+Here's the list:
+[https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md)
+
+After that, I created an updater tool that uses the data from this list — available for download [here](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater).
+
+<img width="979" height="1540" alt="HWIDs" src="https://github.com/user-attachments/assets/a2ace004-48d4-4d47-9029-1af78abef9be" />
+
+---
+
 ## 🧠 Final Thoughts
 
 Below is my current working list of the last-known Intel Chipset INF versions per platform.  
