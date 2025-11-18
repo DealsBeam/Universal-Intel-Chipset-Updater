@@ -153,7 +153,7 @@ Below is my current working list of the last-known Intel Chipset Driver Software
 If you notice any inconsistencies or errors, please report them — these will help improve the accuracy of this list.
 
 📘 **Full detailed version matrix:**  
-[https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md)
+[https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md)
 
 ---
 
