@@ -11,7 +11,7 @@ Automated tool to detect and update Intel chipset INF files to the latest versio
 ## ✨ Features
 
 - 🔍 **Automatic Hardware Detection** - Identifies your Intel chipset and finds matching INFs using the comprehensive HWID database
-- 📦 **Latest INFs** - Always downloads the most recent official Intel chipset INFs
+- 📦 **Latest INFs** - Always downloads the most recent official Intel chipset INF files
 - 🛡️ **Safe Installation** - Uses official Intel installers with proper parameters
 - 🔄 **Smart Updates** - Provides updates to the latest INF versions or reinstalls the current one
 - 💻 **Broad Compatibility** - Supports desktop, mobile, workstation, server, and embedded platforms
