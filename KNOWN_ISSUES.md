@@ -1,13 +1,13 @@
 <a id="top"></a>
 # 🐛 Known Issues & Solutions
 
-This document contains all reported issues, bugs, and their corresponding solutions for the Universal Intel Chipset Drivers Updater. The list is maintained by the community and updated regularly.
+This document contains all reported issues, bugs, and their corresponding solutions for the Universal Intel Chipset Device Updater. The list is maintained by the community and updated regularly.
 
 ## 📑 Quick Navigation
 
 - [Issue #1: Touchpad Stops Working After Chipset Update](#issue-1-touchpad-stops-working-after-chipset-update)
 - [Issue #2: PowerShell Execution Policy Restriction](#issue-2-powershell-execution-policy-restriction)
-- [Issue #3: Script Fails to Extract Drivers](#issue-3-script-fails-to-extract-drivers)
+- [Issue #3: Script Fails to Extract INFs](#issue-3-script-fails-to-extract-INFs)
 
 ---
 
@@ -16,11 +16,11 @@ This document contains all reported issues, bugs, and their corresponding soluti
 **Affected Systems**: Lenovo ThinkPad T480 and T480s laptops
 
 **Symptoms**:  
-- Touchpad becomes completely unresponsive after chipset driver update  
+- Touchpad becomes completely unresponsive after chipset INFs update  
 - No cursor movement or touchpad clicks registered
 
 **Cause**:  
-Chipset driver update interferes with touchpad driver functionality.
+Chipset INF update interferes with touchpad driver functionality.
 
 **Solution**:
 1. Download the appropriate touchpad driver for your model:
@@ -68,7 +68,7 @@ Windows PowerShell blocks script execution by default for security reasons.
 2. Navigate to your EXE location  
 3. Run:
    ```cmd
-   PowerShell -ExecutionPolicy Bypass -Command "& {Start-Process -FilePath 'ChipsetUpdater-10.1-2025.11-Driver64-Win10-Win11.exe' -Verb RunAs}"
+   PowerShell -ExecutionPolicy Bypass -Command "& {Start-Process -FilePath 'ChipsetUpdater-10.1-2025.11-INF-Win10-Win11.exe' -Verb RunAs}"
    ```
 
 ---
@@ -84,7 +84,7 @@ Now you can run the PS1 script normally.
 
 #### Temporary Fix:
 ```powershell
-powershell -ExecutionPolicy Bypass -File "Universal-Intel-Chipset-Updater.ps1"
+powershell -ExecutionPolicy Bypass -File "Universal-Intel-Device-Updater.ps1"
 ```
 
 ---
@@ -111,10 +111,10 @@ If the SFX continues to fail:
 
 ---
 
-## Issue #3: Script Fails to Extract Drivers
+## Issue #3: Script Fails to Extract INF files
 
 **Symptoms**:  
-Script downloads drivers but fails to extract or install them.
+Script downloads INFs but fails to extract or install them.
 
 **Cause**:  
 Corrupted download or temporary file conflicts.
