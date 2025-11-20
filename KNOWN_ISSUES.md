@@ -61,7 +61,7 @@ Windows PowerShell blocks script execution by default for security reasons.
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 3. Type **Y** to confirm  
-4. Run the ChipsetUpdater EXE normally
+4. Run the ChipsetUpdater-10.1-2025.11-INF-Win10-Win11.exe normally
 
 #### ⚠️ Temporary Fix (One-Time Bypass)
 1. Open Command Prompt as Administrator  
