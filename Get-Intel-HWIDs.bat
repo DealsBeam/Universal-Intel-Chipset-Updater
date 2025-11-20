@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 :: Lists all Intel devices with their Hardware IDs for platform identification
 
 :: Set console window size to 75 columns and 25 lines
-mode con: cols=80 lines=25
+mode con: cols=75 lines=27
 
 echo /**************************************************************************
 echo **                  INTEL CHIPSET HWIDs DETECTION TOOL                   **
