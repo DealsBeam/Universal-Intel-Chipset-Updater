@@ -110,7 +110,17 @@ Please feel free to submit a Pull Request or open an Issue.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Project Software
+- **License:** MIT License
+- **Covers:** All original source code, scripts, and documentation created for this project
+- **File:** [LICENSE](LICENSE)
+
+### Distributed Intel Software  
+- **Licenses:** Multiple (Microsoft Reciprocal License + Intel proprietary)
+- **Covers:** Intel Chipset Device Software installers in release packages
+- **Files:** Included in each download package (`LICENSE.txt`, `WixLicenseNote.txt`)
+
+All Intel software is distributed in original, unmodified form with complete license documentation.
 
 ## 📸 Screenshot
 
