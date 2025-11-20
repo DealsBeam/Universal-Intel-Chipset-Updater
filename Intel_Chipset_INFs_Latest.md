@@ -1,4 +1,4 @@
-# Intel Chipset INFs List
+# Intel Chipset INF Files List
 
 <!--
 # Future/Unreleased Intel Platforms
