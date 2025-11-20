@@ -1,27 +1,27 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Intel Chipset Driver Update Tool
+:: Intel Chipset Device Update Tool
 :: Requires administrator privileges
 
 :: Set console window size to 75 columns and 64 lines
 mode con: cols=75 lines=64
 
 echo /*************************************************************************
-echo **                    UNIVERSAL INTEL CHIPSET UPDATER                    **
+echo **                    UNIVERSAL INTEL DEVICE UPDATER                     **
 echo ** --------------------------------------------------------------------- **
 echo **                                                                       **
-echo **                    Drivers Version: 10.1 (2025.11)                    **
+echo **                     INFs Version: 10.1 (2025.11)                      **
 echo **                                                                       **
 echo **              Author: Marcin Grygiel / www.firstever.tech              **
 echo **                                                                       **
 echo ** --------------------------------------------------------------------- **
 echo **         This tool is not affiliated with Intel Corporation.           **
-echo **         Drivers are sourced from official Intel servers.              **
+echo **         INF files are sourced from official Intel servers.            **
 echo **         Use at your own risk.                                         **
 echo ** --------------------------------------------------------------------- **
 echo **                                                                       **
-echo **         GitHub.com/FirstEverTech/Intel-Chipset-Driver-Updater         **
+echo **         GitHub.com/FirstEverTech/Universal-Intel-Chipset-Updater      **
 echo **                                                                       **
 echo *************************************************************************/
 echo.
