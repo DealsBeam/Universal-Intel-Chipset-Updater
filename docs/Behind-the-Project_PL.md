@@ -54,8 +54,6 @@ Po wypakowaniu wszystkich pakietów uzyskałem:
 - 2641 unikalnych identyfikatorów sprzętowych (Hardware IDs)
 - 86783 relacji wersji
 
-<img width="977" height="460" alt="image" src="https://github.com/user-attachments/assets/68e19bd4-ab42-4fe4-9734-2566a284caa3" />
-
 Z tego zbioru danych wygenerowałem pierwszą w historii kompletną macierz wersji INF chipsetu Intela, dostępną teraz tutaj:  
 👉 [Najnowsze sterowniki chipsetu Intel](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md)
 
@@ -84,6 +82,8 @@ Innymi słowy:
 Aby znaleźć "najnowszy sterownik chipsetu Intela", musisz przeszukać 14 lat pakietów i skrzyżować dane z tysięcy plików.
 
 Więc to zautomatyzowałem.
+
+<img width="977" height="460" alt="image" src="https://github.com/user-attachments/assets/68e19bd4-ab42-4fe4-9734-2566a284caa3" />
 
 ---
 
