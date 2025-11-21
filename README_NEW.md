@@ -133,7 +133,7 @@ For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISS
 **Executables/**
 - [Universal-Intel-Chipset-Updater.bat](Universal-Intel-Chipset-Updater.bat) - Main batch script
 - [Universal-Intel-Chipset-Updater.ps1](Universal-Intel-Chipset-Updater.ps1) - Main PowerShell script  
-- [Get-Intel-HWIDs.bat](Get-Intel-HWIDs.bat) - Hardware ID scanner batch scruot
+- [Get-Intel-HWIDs.bat](Get-Intel-HWIDs.bat) - Hardware ID scanner batch script
 - [Get-Intel-HWIDs.ps1](Get-Intel-HWIDs.ps1) - Hardware ID scanner PowerShell script
 
 **Security/**
