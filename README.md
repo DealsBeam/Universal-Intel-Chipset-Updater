@@ -130,28 +130,28 @@ For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISS
 
 **Key Files:**
 
-**Executables/**
+`Executables/`
 - [Universal-Intel-Chipset-Updater.bat](Universal-Intel-Chipset-Updater.bat) - Main batch script
 - [Universal-Intel-Chipset-Updater.ps1](Universal-Intel-Chipset-Updater.ps1) - Main PowerShell script  
 - [Get-Intel-HWIDs.bat](Get-Intel-HWIDs.bat) - Hardware ID scanner batch script
 - [Get-Intel-HWIDs.ps1](Get-Intel-HWIDs.ps1) - Hardware ID scanner PowerShell script
 
-**Security/**
+`Security/`
 - [SECURITY.md](SECURITY.md) - Security policy
 - [SECURITY-AUDITS.md](SECURITY-AUDITS.md) - Security audits summary
 - [docs/audit-reports/](docs/audit-reports/) - Project Audits
 
-**Documentation/**
+`Documentation/`
 - [Intel_Chipset_INFs_Latest.md](Intel_Chipset_INFs_Latest.md) - Latest INF database
 - [Intel_Chipset_INFs_Download.txt](Intel_Chipset_INFs_Download.txt) - Download links
 - [KNOWN_ISSUES.md](KNOWN_ISSUES.md) - Known issues and workarounds
 - [Behind-the-Project_EN.md](docs/Behind-the-Project_EN.md) - Project background (English)
 - [Behind-the-Project_PL.md](docs/Behind-the-Project_PL.md) - Project background (Polish)
 
-**Assets/**
-- [Screenshots/](Assets/Screenshots/) - Tool screenshots
+`Assets/`
+- [Screenshots/](Assets/) - Tool screenshots
 
-**Legal/**
+`Legal/`
 - [LICENSE](LICENSE) - MIT License
 
 ## ❓ Frequently Asked Questions
@@ -166,7 +166,7 @@ This tool specifically updates chipset INF files. It does not update GPU, networ
 As with any system modification, there's a small risk of temporary system instability. The automated restore point minimizes this risk significantly.
 
 ### 💾 Where are files downloaded?
-Files are temporarily stored in C:\Windows\Temp\IntelChipset\ and automatically cleaned up after installation.
+Files are temporarily stored in `C:\Windows\Temp\IntelChipset\` and automatically cleaned up after installation.
 
 ### 🔧 What if something goes wrong?
 The tool creates a system restore point before making changes. You can also check detailed logs in the temp directory.
