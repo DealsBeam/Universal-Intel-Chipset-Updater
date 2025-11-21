@@ -29,7 +29,7 @@ Intel’s public packages list versions like:
 
 …but those installer versions tell you nothing about what will actually install.
 
-Some “newer” packages contain older INF files e.g. 10.1.2.19 (26/01/2016) vs 10.1.1.36 (30/09/2016).  
+Some “newer” packages contain older INF files.  
 Some “stable” packages contain OEM-modified content.  
 Some versions exist in five different variants, all digitally signed by Intel — but with different contents.
 
