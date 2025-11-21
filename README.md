@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/FirstEverTech/Universal-Intel-Chipset-Updater)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/FirstEverTech/Universal-Intel-Chipset-Updater)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
 [![Windows](https://img.shields.io/badge/Windows-10%2B-blue)](https://www.microsoft.com/windows)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F98-green)](https://www.virustotal.com/gui/url/8b9bef806321359355f6c0a12709d84d21acb600964a5ec8bd53cf9422b1cd04?nocache=1)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F98-green)](https://www.virustotal.com/gui/url/df2dce8042ae4e9e7289aefc095e55361414c7f9d305db061ec7d52c0e7f9f9d?nocache=1)
 
 This utility automatically scans your system for Intel chipset components, identifies specific Hardware IDs (HWIDs), and updates chipset devices with the latest compatible INF files using official Intel Chipset Device Software packages. Supports all Intel platforms from Sandy Bridge (2nd Gen) to the latest Panther Lake (15th Gen).
 
@@ -119,6 +119,7 @@ Please feel free to submit a Pull Request or open an Issue.
 - **Licenses:** Multiple (Microsoft Reciprocal License + Intel proprietary)
 - **Covers:** Intel Chipset Device Software installers in release packages
 - **Files:** Included in each download package (`LICENSE.txt`, `WixLicenseNote.txt`)
+- **File:** Included in some download package (`Readme.txt`)
 
 All Intel software is distributed in original, unmodified form with complete license documentation.
 
