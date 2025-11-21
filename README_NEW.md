@@ -122,7 +122,7 @@ Get-Intel-HWIDs.bat
 - User Safety: 9.6/10
 - Reliability: 9.3/10
 
-[View Full Audit Report](docs/audit-reports/2025-11-21-audit.md) • [Security Policy](SECURITY.md)
+[View Full Audit Report](Docs/Audit-Reports/2025-11-21-ChatGPT-Audit.md) • [Security Policy](SECURITY.md)
 
 For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
 
