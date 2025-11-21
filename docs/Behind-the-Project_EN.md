@@ -19,7 +19,7 @@ Intel’s public packages list versions like:
 
 | Year | Installer | INF Version | Support | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| 2011 | 9.2.3.1020 | 9.2.3.1013 | ✅ Full | First INF release for X79/C600 | |
+| 2011 | 9.2.3.1020 | 9.2.3.1013 | ✅ Full | First INF Release for X79/C600 | |
 | 2013 | 9.4.4.1006 | 9.2.3.1032 | ✅ Full | Last INF Version 9.4.xxxx |
 | 2015 | 10.0.27 | 10.0.27 | ✅ Full | Last INF Version 10.0.xx |
 | 2015 | 10.1.1.45 | 10.1.1.45 | ✅ Full | Last INF Version 10.1.1.xx |
