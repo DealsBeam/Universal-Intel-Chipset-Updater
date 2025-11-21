@@ -54,8 +54,6 @@ After extracting all packages, I obtained:
 - 2,641 unique hardware IDs
 - 86,783 version relations
 
-<img width="977" height="460" alt="image" src="https://github.com/user-attachments/assets/68e19bd4-ab42-4fe4-9734-2566a284caa3" />
-
 From this dataset, I generated the first-ever complete Intel chipset INF version matrix, now available here:  
 👉 [Intel Chipset Drivers Latest](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md)
 
@@ -84,6 +82,8 @@ In other words:
 To find the “latest Intel chipset driver” you must search through 14 years of packages and cross-reference thousands of files.  
 
 So I automated it.
+
+<img width="977" height="460" alt="image" src="https://github.com/user-attachments/assets/68e19bd4-ab42-4fe4-9734-2566a284caa3" />
 
 ---
 
