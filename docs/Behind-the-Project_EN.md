@@ -25,7 +25,7 @@ Intel’s public packages list versions like:
 | 2015 | 10.1.1.45 | 10.1.1.45 | ✅ Full | Last INF Version 10.1.1.xx |
 | 2017 | 10.1.2.86 | 10.1.2.86 | ✅ Full | Last INF Version 10.1.2.xx |
 | 2021 | 10.1.18981.6008 | 10.1.3.2 | ✅ Full | Last INF Version 10.1.xxxx |
-| 2025 | 10.1.20266.8668 | None | ❌ Compatibility only | Missing 1Dxx/1Exx entries |
+| 2025 | 10.1.20266.8668 | None | ❌ No HWIDs | Missing 1Dxx/1Exx entries |
 
 …but those installer versions tell you nothing about what will actually install.
 
