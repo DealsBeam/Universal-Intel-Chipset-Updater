@@ -1,4 +1,4 @@
-# Contributing to Universal Intel Chipset Updater
+# Contributing to Universal Intel Chipset Device Updater
 
 First off, thank you for considering contributing to Universal Intel Chipset Updater! It's people like you that make this tool better for everyone.
 
