@@ -31,8 +31,8 @@ echo.
 set "SCRIPT_DIR=%~dp0"
 
 :: Check if PowerShell script exists in the same directory
-if not exist "!SCRIPT_DIR!GET-INTEL-HWIDS.ps1" (
-    echo Error: GET-INTEL-HWIDS.ps1 not found in current directory!
+if not exist "!SCRIPT_DIR!get-intel-hwids.ps1" (
+    echo Error: get-intel-hwids.ps1 not found in current directory!
     echo.
     echo Please ensure the PowerShell script is in the same folder as this BAT file.
     pause
@@ -58,7 +58,7 @@ echo.
 cd /d "!SCRIPT_DIR!"
 
 :: Run PowerShell script with execution policy bypass
-powershell -ExecutionPolicy Bypass -File "GET-INTEL-HWIDS.ps1"
+powershell -ExecutionPolicy Bypass -File "get-intel-hwids.ps1"
 
 echo.
 pause
