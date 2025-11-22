@@ -260,7 +260,6 @@ Author: Marcin Grygiel aka FirstEver ([LinkedIn](https://www.linkedin.com/in/mar
 
 
 - [Intel Chipset INF Files List](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_INFs_Latest.md)
-- [Updater Tool](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater)
-- [Official Intel Chipset Device Software Link](https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html)
-- [Intel Global Chipset Search](https://www.intel.com/content/www/us/en/search.html?q=Chipset%20INF%20Utility)
+- [Intel Chipset Device Software Link](https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html)
+- [Intel Chipset INF Utility Search](https://www.intel.com/content/www/us/en/search.html#q=Chipset%20INF%20Utility)
 - [Issue Tracker](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
