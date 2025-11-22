@@ -54,7 +54,7 @@ Po wypakowaniu wszystkich pakietów uzyskałem:
 - 86783 relacji wersji
 
 Z tego zbioru danych wygenerowałem pierwszą w historii kompletną macierz wersji INF chipsetu Intela, dostępną teraz tutaj:  
-👉 [Najnowsze sterowniki chipsetu Intel](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_Drivers_Latest.md)
+👉 [Lista najnowszych plików INF](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/Intel_Chipset_INFs_Latest.md)
 
 Ta baza danych jest fundamentem narzędzia aktualizującego.
 
