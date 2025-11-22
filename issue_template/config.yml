@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/README.md
+    about: Read the comprehensive project documentation
+  - name: 🔒 Security Policy
+    url: https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/SECURITY.md
+    about: Review our security policy and report vulnerabilities
+  - name: ⚠️ Known Issues
+    url: https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/KNOWN_ISSUES.md
+    about: Check if your issue is already documented
+  - name: 💬 Discussions
+    url: https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🌐 Project Website
+    url: https://www.firstever.tech
+    about: Visit the official project website
