@@ -105,8 +105,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 If you encounter any issues or have questions about a specific release:
 1. Check [Known Issues](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/KNOWN_ISSUES.md)
-2. Search [existing issues](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
-3. Create a [new issue](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues/new) with detailed information
+2. Search [Existing Issues](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
+3. Create a [New Issue](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues/new) with detailed information
 
 ---
 
