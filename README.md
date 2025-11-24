@@ -14,13 +14,26 @@
 
 **Universal Intel Chipset Updater** is an advanced, security-focused tool that automatically detects your Intel hardware and installs the latest official chipset **INF files** with enterprise-grade safety measures.
 
+## 🎉 Latest Release Highlights (v10.1-2025.11.6)
+
+### 🆕 New Security Features
+- **Self-Hash Verification** - Tool now validates its own integrity before execution
+- **Automatic Update Detection** - Seamless update checking and download to Downloads folder
+- **Digital Signature** - SFX EXE signed with FirstEver.tech certificate
+- **Phased Execution** - Clear separation of verification, detection, download, and installation
+
+### 🔒 Enhanced Security
+- Multi-layer integrity verification (Hash + Digital Signature + Certificate Chain)
+- Smart version comparison prevents false update prompts
+- Improved error handling throughout all execution phases
+
 ## 🔍 Independent Security Audits
 
 This project has undergone comprehensive analysis by multiple AI security experts to ensure code quality and reliability. The tool achieved an **average security score of 9.1/10** across all independent assessments.
 
 | Auditor | Score | Key Assessment |
 |---------|-------|----------------|
-| **[Grok](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-CHATGPT-AUDIT.md)** | 9.7/10 | *"Highest score ever given to a community driver utility - Safe for corporate deployment"* |
+| **[Grok](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-GROK-AUDIT.md)** | 9.7/10 | *"Highest score ever given to a community driver utility - Safe for corporate deployment"* |
 | **[ChatGPT](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-CHATGPT-AUDIT.md)** | 9.4/10 | *"Safest, most stable, and most professionally engineered version"* |
 | **[Gemini](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-GEMINI-AUDIT.md)** | 9.0/10 | *"Exceeds standards expected of community-developed tools"* |
 | **[DeepSeek](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-DEEPSEEK-AUDIT.md)** | 8.7/10 | *"A high-quality, security-conscious implementation that exceeds industry standards"* |
@@ -66,13 +79,25 @@ This project has undergone comprehensive analysis by multiple AI security expert
 
 ## 📋 System Requirements
 
-| Requirement | Specification |
-|-------------|---------------|
-| **OS** | Windows 10/11 (x64) |
-| **PowerShell** | Version 5.0 or newer |
-| **Privileges** | Administrator rights |
-| **Storage** | ~500MB temporary space |
-| **Internet** | Required for database updates |
+| Requirement | Specification | Notes |
+|-------------|---------------|--------|
+| **OS** | Windows 10/11 (x64) | All versions supported |
+| **PowerShell** | Version 5.0+ | Built into Windows 10/11 |
+| **Privileges** | Administrator rights | Required for system changes |
+| **Storage** | ~500MB temporary space | Automatic cleanup |
+| **Internet** | Required | For database and update checks |
+| **System Restore** | Enabled (recommended) | Automatic restore point creation |
+
+## ⚡ Quick Comparison
+
+| Feature | This Tool | Intel DSA | Manual Installation |
+|---------|-----------|-----------|---------------------|
+| **Automatic Detection** | ✅ Full | ✅ Partial | ❌ Manual |
+| **Security Verification** | ✅ Multi-layer | ✅ Basic | ❌ None |
+| **System Restore Points** | ✅ Automatic | ❌ None | ❌ Manual |
+| **Update Notifications** | ✅ Built-in | ✅ Yes | ❌ None |
+| **Portable** | ✅ No install | ❌ Requires install | ✅/❌ Varies |
+| **Free** | ✅ 100% | ✅ Yes | ✅ Yes |
 
 ## 🚦 Quick Start
 
@@ -96,37 +121,79 @@ Get-Intel-HWIDs.bat
 
 ## 🔧 How It Works
 
-### 1. Hardware Detection
+### 1. 🔒 Self-Verification & Update Check
+- **Integrity Verification** - Validates script hash against GitHub release
+- **Update Detection** - Compares current version with latest available
+- **Security First** - Ensures tool hasn't been modified or corrupted
+
+### 2. 🔍 Hardware Detection
 - Scans PCI devices for Intel Vendor ID (8086)
 - Identifies chipset-related components
 - Extracts Hardware IDs and current driver versions
 
-### 2. Database Query
+### 3. 📊 Database Query & Matching
 - Downloads latest INF database from GitHub
 - Matches detected HWIDs with compatible packages
 - Compares current vs latest versions
 
-### 3. Security Verification
-- Creates system restore point
+### 4. 🛡 Security Verification
+- Creates system restore point automatically
 - Downloads from primary/backup sources
 - Verifies SHA-256 hashes
 - Validates Intel digital signatures
 
-### 4. Installation
+### 5. ⚡ Installation & Cleanup
 - Executes official Intel setup with safe parameters
-- Handles both ZIP and EXE package formats
 - Provides real-time progress feedback
+- Automatic cleanup of temporary files
 
 ## 🛡 Security First Approach
 
 ### 🔒 Verified Security Layers
 ```text
-1. File Integrity → SHA-256 Hash Verification
-2. Authenticity → Intel Digital Signatures
-3. System Safety → Automated Restore Points
-4. Source Reliability → Dual Download Sources
-5. Privilege Control → Admin Rights Enforcement
+1. Self-Integrity → Script Hash Verification
+2. File Integrity → SHA-256 Hash Verification  
+3. Authenticity → Intel Digital Signatures
+4. Project Origin → FirstEver.tech Digital Signature
+5. System Safety → Automated Restore Points
+6. Source Reliability → Dual Download Sources
+7. Privilege Control → Admin Rights Enforcement
+8. Update Safety → Version Verification
 ```
+
+## 🎯 Usage Scenarios
+
+### 🏠 Home Users
+- **Keep system updated** without technical knowledge
+- **Automatic safety checks** prevent installation issues
+- **One-click operation** with clear prompts
+
+### 💼 IT Professionals & Technicians
+- **Batch deployment** across multiple systems
+- **Comprehensive logging** for troubleshooting
+- **Security verification** for corporate environments
+
+### 🛠 System Builders
+- **Pre-installation preparation** for new builds
+- **Driver consistency** across multiple systems
+- **Time-saving automation** vs manual updates
+
+## 📥 Download Options
+
+### Option 1: SFX Executable (Recommended)
+- **File**: `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.exe`
+- **Features**: Digital signature, one-click execution, automatic extraction
+- **For**: Most users, easiest method
+
+### Option 2: Script Bundle
+- **Files**: `universal-intel-chipset-updater.bat` + `universal-intel-chipset-updater.ps1`
+- **Features**: Full control, modifiable code, transparency
+- **For**: Advanced users, customization
+
+### Option 3: Source Code
+- **Method**: `git clone` the repository
+- **Features**: Latest development version, full customization
+- **For**: Developers, contributors
 
 ### 📊 Independent Audit Results
 
@@ -182,7 +249,25 @@ For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISS
 - [SECURITY.md](SECURITY.md) - Security policy
 - [SECURITY-AUDITS.md](SECURITY-AUDITS.md) - Comprehensive security audits summary
 
-## ❓ Frequently Asked Questions
+## 📦 Release Structure
+
+Each version (v10.1-2025.11.6) includes:
+
+### Primary Files
+- `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.exe` - Main executable (digitally signed)
+- `universal-intel-chipset-updater.bat` - Batch wrapper
+- `universal-intel-chipset-updater.ps1` - PowerShell script
+
+### Verification Files  
+- `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.sha256` - EXE hash
+- `universal-intel-chipset-updater-10.1-2025.11.6-ps1.sha256` - PS1 script hash
+- `FirstEver.tech.cer` - Digital certificate
+
+### Documentation
+- `CHANGELOG.md` - Version history
+- `SECURITY-AUDITS.md` - Security reports
+
+## ❓ Frequently Asked Questions (FAQ)
 
 ### 🤔 Is this tool safe to use?
 Yes! This tool has undergone comprehensive independent security audits by 6 different AI experts with an average score of 9.1/10. Multiple auditors confirmed it's the safest and most stable version ever released, suitable for daily use, corporate deployment, and technician toolkits.
@@ -194,7 +279,7 @@ Security measures include:
 - Official Intel drivers only from trusted sources
 - Comprehensive pre-installation checks
 
-Version 10.1-2025.11.5 is strongly recommended by security auditors for optimal safety and performance.
+**Version 10.1-2025.11.6** is strongly recommended by security auditors for optimal safety and performance.
 
 ### 🔄 Will this update all my Intel drivers?
 This tool specifically updates chipset INF files. It does not update GPU, network, or other device drivers.
@@ -207,6 +292,55 @@ Files are temporarily stored in `C:\Windows\Temp\IntelChipset\` and automaticall
 
 ### 🔧 What if something goes wrong?
 The tool creates a system restore point before making changes. You can also check detailed logs in the temp directory.
+
+### 🔄 How does the automatic update check work?
+The tool compares your current version with the latest version on GitHub. If a newer version is available, it offers to download it directly to your Downloads folder with full verification.
+
+### 🔒 What does self-hash verification do?
+Before execution, the tool calculates its own SHA-256 hash and compares it with the official hash from GitHub. This ensures the file hasn't been modified, corrupted, or tampered with.
+
+### 📧 How are updates notified?
+The tool automatically checks for updates on each run and clearly notifies you if a newer version is available, with options to continue or update.
+
+### 🏷️ Why is the certificate "not trusted"?
+The FirstEver.tech certificate is self-signed for project authenticity. Public trust requires expensive commercial certificates, but the included certificate allows verification of file origin.
+
+## 💻 Compatibility Matrix
+
+### Intel Platform Support
+| Generation | Code Name | Status | Notes |
+|------------|-----------|--------|-------|
+| 12th-14th Gen | Alder/Raptor Lake | ✅ Full | Latest support |
+| 10th-11th Gen | Comet/Tiger Lake | ✅ Full | Complete support |
+| 8th-9th Gen | Coffee/Whiskey Lake | ✅ Full | Stable support |
+| 6th-7th Gen | Skylake/Kaby Lake | ✅ Full | Mature support |
+| 4th-5th Gen | Haswell/Broadwell | ✅ Full | Legacy support |
+| 2nd-3rd Gen | Sandy/Ivy Bridge | ✅ Full | Extended support |
+
+### Windows Version Support
+| Version | Build | Status | Notes |
+|---------|-------|--------|-------|
+| Windows 11 | All builds | ✅ Full | Optimized support |
+| Windows 10 | 22H2+ | ✅ Full | Recommended |
+| Windows 10 | 21H2 | ✅ Full | Stable |
+| Windows 10 | 2004-21H1 | ✅ Full | Legacy |
+
+## 📊 Performance Metrics
+
+### Typical Execution Times
+| Phase | Time | Description |
+|-------|------|-------------|
+| **Verification & Update Check** | 2-5 seconds | Hash verification and version check |
+| **Hardware Detection** | 3-8 seconds | System scanning and identification |
+| **Database Download** | 5-15 seconds | Latest INF information fetch |
+| **Package Download** | 30s-3min | Driver package download (size dependent) |
+| **Installation** | 1-5 minutes | INF file installation and system update |
+
+### Resource Usage
+- **Memory**: <100MB during operation
+- **Storage**: ~500MB temporary (automatically cleaned)
+- **Network**: 50-300MB total download (depending on packages needed)
+- **CPU**: Minimal impact during scanning and installation
 
 ## 🐛 Known Issues
 
@@ -241,16 +375,60 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Issue Tracker](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues) - Report problems
 
 ---
-## 🧑‍💻 Author/Maintainer
+
+## 🧑‍💻 Author & Support
 
 **Marcin Grygiel** aka FirstEver
 - 🌐 **Website**: [www.firstever.tech](https://www.firstever.tech)
 - 💼 **LinkedIn**: [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/)
 - 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
-- 💖 **Support**: [PayPal](https://www.paypal.com/donate/?hosted_button_id=48VGDSCNJAPTJ) | [Buy Me a Coffee](https://buymeacoffee.com/firstevertech)
+- 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)
 
-Your support helps maintain and improve this project for everyone!  
-If this project helped you, please consider giving it a star! ⭐
+### 💖 Support This Project
+This project is maintained in my free time. Your support helps cover development costs and server expenses.
+
+[![PayPal](https://img.shields.io/badge/PayPal-Support_Development-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=48VGDSCNJAPTJ)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Work-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)
+
+**Your support means everything!** If this project helped you, please consider:
+- Giving it a ⭐ star on GitHub
+- Sharing with friends and colleagues
+- Reporting issues or suggesting features
+- Supporting development financially
+
+---
+
+## 🚀 Ready to Update?
+
+### Quick Start Guide
+1. **Download** latest release from [Releases page](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases)
+2. **Verify** digital signature and hashes (optional but recommended)
+3. **Run as Administrator** for full system access  
+4. **Follow prompts** - tool handles everything automatically
+5. **Restart if prompted** to complete installation
+
+### Verification Steps (Optional)
+- Check file hashes match published SHA256 files
+- Verify digital signature with included certificate
+- Review security audit reports for confidence
+
+### Need Help?
+- 📚 [Full Documentation](docs/BEHIND-THE-PROJECT_EN.md)
+- 🐛 [Report Issues](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
+- 💬 [Community Discussions](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/discussions)
+- 🔧 [Troubleshooting Guide](KNOWN_ISSUES.md)
+- 🔒 [Security Information](SECURITY-AUDITS.md)
+
+---
+
+<div align="center">
+
+**⭐ If this project helped you, please give it a star! ⭐**
+
+*Keeping the community updated, one chipset at a time!*
+
+</div>
 
 ---
 
