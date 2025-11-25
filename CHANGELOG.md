@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1-2025.11.7] - 2025-11-26
+
+### Added
+- **Final Credits Screen**: New thank you screen with project information and support message, displayed for 5 seconds before automatic closure
+- **Enhanced Cleanup Function**: Consolidated temporary file cleanup with improved messaging and error handling
+- **Streamlined Exit Flow**: Unified exit process with consistent pause and credits screen across all termination paths
+
+### Changed
+- **Removed Duplicate Pauses**: Eliminated redundant pause in BAT file, now handled entirely by PowerShell script
+- **Improved User Experience**: Consistent flow: operation summary → pause → credits → auto-close
+- **Cleanup Messaging**: Standardized temporary file cleanup messages with yellow color for visibility
+
+### Fixed
+- **Duplicate Cleanup Messages**: Resolved issue where cleanup messages appeared multiple times
+- **Exit Code Handling**: Proper exit codes for success (0) and errors (1) with credits screen
+- **Temporary File Cleanup**: Ensured cleanup occurs in all scenarios (success, error, cancellation)
+
+### Security
+- **Maintained Integrity Checks**: Self-hash verification and digital signature validation remain intact
+- **Secure Temporary File Handling**: Continued automatic cleanup of sensitive temporary files
+
+---
+
 ## [10.1-2025.11.6] - 2025-11-25
 
 ### Added
