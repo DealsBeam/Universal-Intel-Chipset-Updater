@@ -96,7 +96,7 @@ This project has undergone comprehensive analysis by multiple AI security expert
 | **Security Verification** | ✅ Multi-layer | ✅ Basic | ❌ None |
 | **System Restore Points** | ✅ Automatic | ❌ None | ❌ Manual |
 | **Update Notifications** | ✅ Built-in | ✅ Yes | ❌ None |
-| **Self-updating Tool** | ✅ Built-in | ❌ None | ❌ None |
+| **Self-updating Tool** | ✅ Yes | ❌ No | ❌ No |
 | **Portable** | ✅ No install | ❌ Requires install | ✅/❌ Varies |
 | **Free** | ✅ 100% | ✅ Yes | ✅ Yes |
 
