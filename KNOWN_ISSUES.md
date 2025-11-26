@@ -23,7 +23,14 @@ This document contains all reported issues, bugs, and their corresponding soluti
 **Cause**:  
 Chipset INF update interferes with touchpad driver functionality.
 
-**Solution**:
+**Solution #1**:
+1. Copy the version from the end of the link in the "Use source" window:
+   - e.g. `C:\ProgramData\Package Cache\{D220324C-2510-4BF2-B789-56832E9223E2}v10.1.18981.6008`
+2. Search Google for the missing package: `Download Intel Chipset Device Software v10.1.18981.6008`
+3. Download the `SetupChipset.exe` file (may be zipped) and reinstall it
+4. Restart your system
+
+**Solution #2**:
 1. Download the appropriate touchpad driver for your model:
    - **ELAN UltraNav Driver** (for ThinkPad T480s):  
      `n22ga09w.exe` – https://download.lenovo.com/pccbbs/mobiles/n22ga09w.exe
