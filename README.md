@@ -118,7 +118,7 @@ This project has undergone comprehensive analysis by multiple AI security expert
 ChipsetUpdater-10.1-2025.11.7-Win10-Win11.exe (or later version)
 
 # Optionaly, download .ps1 and .bat files, then run BATCH file as Administrator:
-.\Universal-Intel-Chipset-Updater.bat
+Universal-Intel-Chipset-Updater.bat
 
 ```
 
