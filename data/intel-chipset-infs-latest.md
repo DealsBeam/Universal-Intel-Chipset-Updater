@@ -446,4 +446,4 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 INFs marked with `*` indicate that no date was embedded in the INFs, so the system automatically assigned the default minimal date — `18/07/1968`. An approximate release date is provided based on the certificate timestamp found in the Intel Chipset Device Software installer. Windows inbox driver INFs use the digital signature date of the corresponding `.cat` file.
 
-**Source:** [Intel Chipset INFs Updater](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_INFs_Latest.md) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 2025-11-12
+**Source:** [Intel Chipset INFs Updater](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_INFs_Latest.md) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 2025-11-27
