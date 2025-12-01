@@ -1,17 +1,17 @@
 Name = Intel Chipset Device Software
 INFVer = 14/08/2025,10.1.20314.8688
 Variant = Server
-Link = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20314.8688/intel_chipset_10.1.20314.8688.zip
+Link = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20314.8688/intel_chipset_10.1.20314.8688S.zip
 Prefix = \SetupChipset.exe
-SHA256 = 4C735962AFE89EBA40B9CA875A4A6FDF16DA08F3FFB4D4D63AA522A14A27CC74
-Backup = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20314.8688/intel_chipset_10.1.20314.8688S.zip
-SHA256_B = 937200F00038F896D6B40FF702E0A1D0CE82AFA03FC09ECBD17A74D44A7ADE9B
+SHA256 = 8CB24C4F41A528625D8EC98311C0D762C063DA370D79A4E1A40506A5D6707491
+Backup = https://www.firstever.tech/download/intel_chipset_10.1.20314.8688S.zip
+SHA256_B = 8CB24C4F41A528625D8EC98311C0D762C063DA370D79A4E1A40506A5D6707491
 Prefix_B = \SetupChipset.exe
 
 Name = Intel Chipset Device Software
 INFVer = 27/06/2025,10.1.20266.8668
 Variant = Consumer
-Link = https://downloadmirror.intel.com/861043/SetupChipset.exe
+Link = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20266.8668/intel_chipset_10.1.20266.8668.zip
 Prefix = \SetupChipset.exe
 SHA256 = 4C735962AFE89EBA40B9CA875A4A6FDF16DA08F3FFB4D4D63AA522A14A27CC74
 Backup = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20266.8668/intel_chipset_10.1.20266.8668.zip
