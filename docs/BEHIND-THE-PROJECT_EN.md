@@ -214,7 +214,7 @@ This updater fixes that.
 ### Option 1: SFX EXE (Recommended)
 
 1. Download:  
-   `ChipsetUpdater-10.1-2025.11.5-Win10-Win11.exe`
+   `ChipsetUpdater-10.1-2025.11.8-Win10-Win11.exe`
 2. Run as Administrator
 3. Follow prompts
 
