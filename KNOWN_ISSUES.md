@@ -17,6 +17,7 @@
 
 ---
 
+<a id="table_of_contents"></a>
 # 📑 Table of Contents
 
 1. [**Universal Intel Chipset Device Updater**](#top)  
