@@ -1,193 +1,624 @@
 <a id="top"></a>
-# 🐛 Known Issues & Solutions
+# 🚀 Universal Intel Chipset Device Updater
 
-This document contains all reported issues, bugs, and their corresponding solutions for the Universal Intel Chipset Device Updater. The list is maintained by the community and updated regularly.
+[![Version](https://img.shields.io/badge/Version-10.1--2025.11.8-red?style=for-the-badge)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases)
+[![License](https://img.shields.io/badge/License-MIT-0056b3?style=for-the-badge)](LICENSE)
+[![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=for-the-badge)](https://www.microsoft.com/windows)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.0+-blueviolet?style=for-the-badge)](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)
 
-## 📑 Quick Navigation
+[![Security Audit](https://img.shields.io/badge/Audit_Score-9.1%2F10-0a8f08?style=for-the-badge)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/SECURITY-AUDITS.md)
+[![Reliability](https://img.shields.io/badge/Reliability-Excellent-0a8f08?style=for-the-badge)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/wiki/Reliability)
+[![Issues](https://img.shields.io/github/issues/FirstEverTech/Universal-Intel-Chipset-Updater?style=for-the-badge)](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F98-008631?style=for-the-badge)](https://www.virustotal.com/gui/url/df2dce8042ae4e9e7289aefc095e55361414c7f9d305db061ec7d52c0e7f9f9d)
 
-- [Issue #1: Touchpad Stops Working After Chipset Update](#issue-1-touchpad-stops-working-after-chipset-update)
-- [Issue #2: PowerShell Execution Policy Restriction](#issue-2-powershell-execution-policy-restriction)
-- [Issue #3: Script Fails to Extract Intel Chipset Device Software](#issue-3-script-fails-to-extract-intel-chipset-device-software)
-- [Issue #4: Installer Cannot Continue Due to Missing or Corrupted Previous Intel Chipset Installation](#issue-4-installer-cannot-continue-due-to-missing-or-corrupted-previous-intel-chipset-installation)
+<a id="universal_intel_chipset_device_updater"></a>
+## 🔧 Automate Your Intel Chipset Updates
+
+**Universal Intel Chipset Device Updater** is an advanced, security-focused tool that automatically detects your Intel hardware and installs the latest official chipset **INF files** with enterprise-grade safety measures.
 
 ---
 
-## Issue #1: Touchpad Stops Working After Chipset Update
+# 📑 Table of Contents
 
-**Affected Systems**: Lenovo ThinkPad T480 and T480s laptops
+1. [**Universal Intel Chipset Device Updater**](#universal_intel_chipset_device_updater)  
+2. [**Table of Contents**](#table_of_contents)  
+3. [**Latest Release Highlights**](#latest-release-highlights)  
+   3.1 [New Features & Improvements](#new-features-improvements)  
+   3.2 [Technical Updates](#technical-updates)  
+   3.3 [Notes](#notes)  
+   3.4 [Bug Fixes](#bug-fixes)  
+4. [**Independent Security Audits**](#independent-security-audits)  
+5. [**Application Overview**](#application-overview)  
+6. [**Key Features**](#key-features)  
+   6.1 [Smart Hardware Detection](#smart-hardware-detection)  
+   6.2 [Multi-Layer Security](#multi-layer-security)  
+   6.3 [Seamless Operation](#seamless-operation)  
+   6.4 [Comprehensive Coverage](#comprehensive-coverage)  
+7. [**System Requirements**](#system-requirements)  
+8. [**Quick Comparison**](#quick-comparison)  
+9. [**Quick Start**](#quick-start)  
+   9.1 [Method 1: One-Click Execution](#method-1-one-click-execution)  
+   9.2 [Method 2: PowerShell Direct](#method-2-powershell-direct)  
+   9.3 [Method 3: Hardware ID Scanner Only](#method-3-hardware-id-scanner-only)  
+10. [**How It Works**](#how-it-works)  
+   10.1 [Self-Verification & Update Check](#1-self-verification-update-check)  
+   10.2 [Hardware Detection](#2-hardware-detection)  
+   10.3 [Database Query & Matching](#3-database-query-matching)  
+   10.4 [Security Verification](#4-security-verification)  
+   10.5 [Installation & Cleanup](#5-installation-cleanup)  
+11. [**Security First Approach**](#security-first-approach)  
+   11.1 [Verified Security Layers](#verified-security-layers)  
+12. [**Usage Scenarios**](#usage-scenarios)  
+   12.1 [Home Users](#home-users)  
+   12.2 [IT Professionals & Technicians](#it-professionals-technicians)  
+   12.3 [System Builders](#system-builders)  
+13. [**Download Options**](#download-options)  
+   13.1 [Option 1: SFX Executable (Recommended)](#option-1-sfx-executable-recommended)  
+   13.2 [Option 2: Script Bundle](#option-2-script-bundle)  
+   13.3 [Option 3: Source Code](#option-3-source-code)  
+   13.4 [Independent Audit Results](#independent-audit-results)  
+14. [**Project Structure**](#project-structure)  
+15. [**Release Structure**](#release-structure)  
+   15.1 [Primary Files](#primary-files)  
+   15.2 [Verification Files](#verification-files)  
+   15.3 [Documentation](#documentation)  
+16. [**Frequently Asked Questions (FAQ)**](#frequently-asked-questions-faq)  
+   16.1 [Is this tool safe to use?](#is-this-tool-safe-to-use)  
+   16.2 [Will this update all my Intel drivers?](#will-this-update-all-my-intel-drivers)  
+   16.3 [What are the risks?](#what-are-the-risks)  
+   16.4 [Where are files downloaded?](#where-are-files-downloaded)  
+   16.5 [What if something goes wrong?](#what-if-something-goes-wrong)  
+   16.6 [How does the automatic update check work?](#how-does-the-automatic-update-check-work)  
+   16.7 [What does self-hash verification do?](#what-does-self-hash-verification-do)  
+   16.8 [How are updates notified?](#how-are-updates-notified)  
+   16.9 [Why is the certificate "not trusted"?](#why-is-the-certificate-not-trusted)  
+17. [**Compatibility Matrix**](#compatibility-matrix)  
+   17.1 [Intel Platform Support](#intel-platform-support)  
+   17.2 [Windows Version Support](#windows-version-support)  
+18. [**Performance Metrics**](#performance-metrics)  
+   18.1 [Typical Execution Times](#typical-execution-times)  
+   18.2 [Resource Usage](#resource-usage)  
+19. [**Known Issues**](#known-issues)  
+20. [**Contributing**](#contributing)  
+21. [**License**](#license)  
+22. [**Acknowledgments**](#acknowledgments)  
+23. [**Important Links**](#important-links)  
+24. [**Author & Support**](#author-support)  
+   24.1 [Support This Project](#support-this-project)  
+25. [**Ready to Update?**](#ready-to-update)  
+   25.1 [Quick Start Guide](#quick-start-guide)  
+   25.2 [Verification Steps (Optional)](#verification-steps-optional)  
+   25.3 [Need Help?](#need-help)
 
-**Symptoms**:  
-- Touchpad becomes completely unresponsive after chipset INFs update  
-- No cursor movement or touchpad clicks registered
-
-**Cause**:  
-Chipset INF update interferes with touchpad driver functionality.
-
-**Solution**:
-1. Download the appropriate touchpad driver for your model:
-   - **ELAN UltraNav Driver** (for ThinkPad T480s):  
-     `n22ga09w.exe` – https://download.lenovo.com/pccbbs/mobiles/n22ga09w.exe
-   - **Synaptics UltraNav Driver** (for ThinkPad T480):  
-     `n23gz21w.exe` – https://download.lenovo.com/pccbbs/mobiles/n23gz21w.exe
-2. Run the downloaded installer as Administrator  
-3. Restart your system
 
 [↑ Back to top](#top)
 
 ---
 
-## Issue #2: PowerShell Execution Policy Restriction
+<a id="latest-release-highlights"></a>
+## 🎉 Latest Release Highlights (v10.1-2025.11.8)
 
-**Affected Systems**: All Windows systems with default PowerShell settings
+### 🆕 New Features & Improvements
+- **Enhanced platform detection**: Added automatic detection for Intel platforms that use Windows 11 24H2 inbox drivers (e.g., Meteor Lake)
+- **Improved user communication**: Clear informational messages when Windows inbox drivers are detected
+- **Smart exclusion system**: Platforms with `Package = None` in the database are automatically excluded from updates
+- **Better date handling**: Windows inbox driver dates now use digital signature dates from corresponding .cat files
 
-**Symptoms**:
-- SFX EXE fails to run with PowerShell execution policy errors  
-- Script terminates immediately without user interaction  
-- Error message:  
-  ```
-  File ... cannot be loaded because running scripts is disabled on this system
-  ```
+### 🔧 Technical Updates
+- **Updated parsing logic**: Script now identifies Windows inbox-only platforms during hardware detection
+- **Enhanced error handling**: Improved debug messages and logging for platform detection
+- **Streamlined user experience**: Separate section for Windows inbox platforms in the output
 
-**Cause**:  
-Windows PowerShell blocks script execution by default for security reasons.
+### 📝 Notes
+- **No INF database changes**: This update only improves the detection and handling logic
+- **Backward compatible**: Fully compatible with existing INF database format
+- **Future-proof**: Automatically handles new platforms marked with `Package = None`
 
-**Solution**:
+### 🐛 Bug Fixes
+- Fixed potential false positives for unsupported platforms
+- Improved handling of platforms without separate Intel Chipset Device Software packages
 
-### For SFX EXE Users
 
-#### ✅ Permanent Fix (Recommended)
-1. **Press Windows + X** and select **Windows PowerShell (Admin)**
-2. Run the command:
-   ```powershell
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-3. Type **Y** to confirm  
-4. Run the ChipsetUpdater-10.1-2025.11-INF-Win10-Win11.exe normally
+[↑ Back to top](#top)
 
-#### ⚠️ Temporary Fix (One-Time Bypass)
-1. Open Command Prompt as Administrator  
-2. Navigate to your EXE location  
-3. Run:
-   ```cmd
-   PowerShell -ExecutionPolicy Bypass -Command "& {Start-Process -FilePath 'ChipsetUpdater-10.1-2025.x.x-Win10-Win11.exe' -Verb RunAs}"
-   ```
+<a id="independent-security-audits"></a>
+## 🔍 Independent Security Audits
 
----
+This project has undergone comprehensive analysis by multiple AI security experts to ensure code quality and reliability. The tool achieved an **average security score of 9.1/10** across all independent assessments.
 
-### For PS1 Users (Direct PowerShell Script)
+| Auditor | Score | Key Assessment |
+|---------|-------|----------------|
+| **[Grok](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-GROK-AUDIT.md)** | 9.7/10 | *"Highest score ever given to a community driver utility - Safe for corporate deployment"* |
+| **[ChatGPT](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-CHATGPT-AUDIT.md)** | 9.4/10 | *"Safest, most stable, and most professionally engineered version"* |
+| **[Gemini](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-GEMINI-AUDIT.md)** | 9.0/10 | *"Exceeds standards expected of community-developed tools"* |
+| **[DeepSeek](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-DEEPSEEK-AUDIT.md)** | 8.7/10 | *"A high-quality, security-conscious implementation that exceeds industry standards"* |
+| **[Copilot](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-COPILOT-AUDIT.md)** | 8.6/10 | *"Strong project with excellent transparency and security improvements"* |
+| **[Claude](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/docs/audit-reports/2025-11-21-CLAUDE-AUDIT.md)** | 8.3/10 | *"Professionally executed tool for automating Intel chipset updates"* |
 
-#### Permanent Fix:
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+*For detailed audit reports and methodology, see [SECURITY-AUDITS.md](SECURITY-AUDITS.md).*
+
+
+[↑ Back to top](#top)
+
+<a id="application-overview"></a>
+## 🖼️ Application Overview
+
+| Phase 1 | Phase 2 | Phase 3 | Phase 4 |
+|:---------------:|:--------------:|:-------------------:|:-------------------:|
+| ![Hardware Detection](assets/1-security.png) | ![Security Check](assets/2-detection.png) | ![Update Process](assets/3-backup.png) | ![Update Process](assets/4-install.png) |
+| *Security check and update check* | *Hardware detection and version analysis* | *Creating a system restore point* | *Download, verify and install* |
+
+
+
+[↑ Back to top](#top)
+
+<a id="key-features"></a>
+## ✨ Key Features
+
+### 🔍 **Smart Hardware Detection**
+- Automatically scans for Intel chipset components
+- Identifies specific Hardware IDs (HWIDs)
+- Supports chipsets from Sandy Bridge to latest generations
+- Detects both Consumer and Server platforms
+
+### 🛡 **Multi-Layer Security**
+- **SHA-256 Hash Verification** for all downloads
+- **Digital Signature Validation** (Intel Corporation certificates)
+- **Automated System Restore Points** before installation
+- **Dual-Source Download** with backup fallback
+- **Administrator Privilege Enforcement**
+
+### ⚡ **Seamless Operation**
+- No installation required - fully portable
+- Automatic version checking and updates
+- Clean, intuitive user interface
+- Detailed logging and debug mode
+- Save to Downloads folder option
+
+### 🔄 **Comprehensive Coverage**
+- Mainstream Desktop/Mobile platforms
+- Workstation/Enthusiast systems
+- Xeon/Server platforms
+- Atom/Low-Power devices
+
+
+[↑ Back to top](#top)
+
+<a id="system-requirements"></a>
+## 📋 System Requirements
+
+| Requirement | Specification | Notes |
+|-------------|---------------|--------|
+| **OS** | Windows 10/11 (x64) | All versions supported |
+| **PowerShell** | Version 5.0+ | Built into Windows 10/11 |
+| **Privileges** | Administrator rights | Required for system changes |
+| **Storage** | ~5MB temporary space | Automatic cleanup |
+| **Internet** | Required | For database and update checks |
+| **System Restore** | Enabled (recommended) | Automatic restore point creation |
+
+
+[↑ Back to top](#top)
+
+<a id="quick-comparison"></a>
+## ⚡ Quick Comparison
+
+| Feature | This Tool | Intel DSA | Manual Installation |
+|---------|-----------|-----------|---------------------|
+| **Automatic Detection** | ✅ Full | ✅ Partial | ❌ Manual |
+| **Security Verification** | ✅ Multi-layer | ✅ Basic | ❌ None |
+| **System Restore Points** | ✅ Automatic | ❌ None | ❌ Manual |
+| **Update Notifications** | ✅ Built-in | ✅ Yes | ❌ None |
+| **Self-updating** | ✅ Yes | ❌ No | ❌ No |
+| **Portable** | ✅ No install | ❌ Requires install | ✅/❌ Varies |
+| **Free** | ✅ 100% | ✅ Yes | ✅ Yes |
+
+
+[↑ Back to top](#top)
+
+<a id="quick-start"></a>
+## 🚦 Quick Start
+
+### Method 1: One-Click Execution
+```batch
+# Download and run executable file as Administrator:
+ChipsetUpdater-10.1-2025.11.7-Win10-Win11.exe (or later version)
+
+# Optionaly, download .ps1 and .bat files, then run BATCH file as Administrator:
+Universal-Intel-Chipset-Updater.bat
+
 ```
-Type **Y** to confirm.  
-Now you can run the PS1 script normally.
 
-#### Temporary Fix:
+### Method 2: PowerShell Direct
 ```powershell
-powershell -ExecutionPolicy Bypass -File "universal-intel-device-updater.ps1"
+# Run PowerShell as Administrator, then:
+.\Universal-Intel-Chipset-Updater.ps1
 ```
 
----
+### Method 3: Hardware ID Scanner Only
+```batch
+# For diagnostic purposes
+Get-Intel-HWIDs.bat
+```
 
-### Alternative: Use Batch Files Instead
-
-If the SFX continues to fail:
-
-1. Download both `.bat` and `.ps1` files  
-2. Place them in the same folder  
-3. Right-click the `.bat` file → **Run as administrator**
-
----
-
-### Security Notes
-- Permanent fix affects only the current user and is safe for trusted scripts  
-- Temporary bypass is safest for one-time use  
-- Revert execution policy anytime with:  
-  ```powershell
-  Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
-  ```
 
 [↑ Back to top](#top)
 
----
+<a id="how-it-works"></a>
+## 🔧 How It Works
 
-## Issue #3: Script Fails to Extract Intel Chipset Device Software
+### 1. 🔒 Self-Verification & Update Check
+- **Integrity Verification** - Validates script hash against GitHub release
+- **Update Detection** - Compares current version with latest available
+- **Security First** - Ensures tool hasn't been modified or corrupted
 
-**Symptoms**:  
-Script downloads Intel Chipset Device Software but fails to install them.
+### 2. 🔍 Hardware Detection
+- Scans PCI devices for Intel Vendor ID (8086)
+- Identifies chipset-related components
+- Extracts Hardware IDs and current driver versions
 
-**Cause**:  
-Corrupted download or temporary file conflicts.
+### 3. 📊 Database Query & Matching
+- Downloads latest INF database from GitHub
+- Matches detected HWIDs with compatible packages
+- Compares current vs latest versions
 
-**Solution**:
-1. Delete contents of:  
-   ```
-   C:\Windows\Temp\IntelChipset
-   ```
-2. Run the script again  
-3. Ensure a stable internet connection during download
+### 4. 🛡 Security Verification
+- Creates system restore point automatically
+- Downloads from primary/backup sources
+- Verifies SHA-256 hashes
+- Validates Intel digital signatures
 
-[↑ Back to top](#top)
+### 5. ⚡ Installation & Cleanup
+- Executes official Intel setup with safe parameters
+- Provides real-time progress feedback
+- Automatic cleanup of temporary files
 
----
-
-## Issue #4: Installer Cannot Continue Due to Missing or Corrupted Previous Intel Chipset Installation
-
-**Symptoms**:  
-- The installer reports that it cannot continue  
-- Windows Installer (MSI) cannot find the original Intel Chipset Device Software package  
-- Installation halts before INF processing begins
-
-<img width="503" height="396" alt="Intel_Issue" src="https://github.com/user-attachments/assets/a8e10bf2-8169-48b3-9f4f-7ab9ffcf60f2" />
-
-**Cause**:  
-This issue occurs when a previous installation of *Intel Chipset Device Software* was not cleanly uninstalled or its original MSI package has become corrupted or missing.  
-This problem existed *before* using the Universal Intel Chipset Updater.
-
-**Solution**:
-
-1. **Uninstall via Windows (if possible)**  
-   Try removing **Intel Chipset Device Software** from the standard Windows *Apps & Features* list.
-
-2. **Reinstall (you need the same version of SetupChipset.exe file).**  
-   - Copy the version from the end of the link in the "Use source" window  
-     e.g. C:\ProgramData\Package Cache\{D220324C-2510-4BF2-B789-56832E9223E2}v10.1.18981.6008
-   - Search Google for the missing package: Download Intel Chipset Device Software v10.1.18981.6008
-   - Download the SetupChipset.exe file (may be zipped) and reinstall it
-
-3. **Use a Cleanup Tool (Recommended)**  
-   If the entry is missing or the uninstall fails, use **[Revo Uninstaller (Free Version)](https://www.revouninstaller.com/products/revo-uninstaller-free/)**.  
-   It will remove:
-   - leftover registry entries  
-   - broken MSI references  
-   - residual program files  
-
-   Community reports, including MSI forum discussions, confirm that Revo Uninstaller reliably fixes this issue.
-
-3. **Reinstall the Intel Chipset Package**  
-   After cleanup, run the installer again. It should now proceed normally.
-
-**Important**:  
-A successful installation will always show one of two prompts:
-- **Installation/Upgrade**, or  
-- **Downgrade**
-
-If neither appears, cleanup was incomplete.
 
 [↑ Back to top](#top)
 
+<a id="security-first-approach"></a>
+## 🛡 Security First Approach
+
+### 🔒 Verified Security Layers
+```text
+1. Self-Integrity → Script Hash Verification
+2. File Integrity → SHA-256 Hash Verification  
+3. Authenticity → Intel Digital Signatures
+4. Project Origin → FirstEver.tech Digital Signature
+5. System Safety → Automated Restore Points
+6. Source Reliability → Dual Download Sources
+7. Privilege Control → Admin Rights Enforcement
+8. Update Safety → Version Verification
+```
+
+
+[↑ Back to top](#top)
+
+<a id="usage-scenarios"></a>
+## 🎯 Usage Scenarios
+
+### 🏠 Home Users
+- **Keep system updated** without technical knowledge
+- **Automatic safety checks** prevent installation issues
+- **One-click operation** with clear prompts
+
+### 💼 IT Professionals & Technicians
+- **Batch deployment** across multiple systems
+- **Comprehensive logging** for troubleshooting
+- **Security verification** for corporate environments
+
+### 🛠 System Builders
+- **Pre-installation preparation** for new builds
+- **Driver consistency** across multiple systems
+- **Time-saving automation** vs manual updates
+
+
+[↑ Back to top](#top)
+
+<a id="download-options"></a>
+## 📥 Download Options
+
+### Option 1: SFX Executable (Recommended)
+- **File**: `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.exe`
+- **Features**: Digital signature, one-click execution, automatic extraction
+- **For**: Most users, easiest method
+
+### Option 2: Script Bundle
+- **Files**: `universal-intel-chipset-updater.bat` + `universal-intel-chipset-updater.ps1`
+- **Features**: Full control, modifiable code, transparency
+- **For**: Advanced users, customization
+
+### Option 3: Source Code
+- **Method**: `git clone` the repository
+- **Features**: Latest development version, full customization
+- **For**: Developers, contributors
+
+### 📊 Independent Audit Results
+
+This project has been thoroughly audited by 6 independent AI security experts, achieving an average score of 9.1/10. Multiple auditors confirmed it's the safest and most stable version ever released, suitable for daily use, corporate deployment, and technician toolkits.
+
+[View Full Audit Report](SECURITY-AUDITS.md) • [Security Policy](SECURITY.md)
+
+For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
+
+
+[↑ Back to top](#top)
+
+<a id="project-structure"></a>
+## 📁 Project Structure
+
+**Key Files and Directories:**
+
+`src/` - Main scripts directory
+- [universal-intel-chipset-updater.bat](src/universal-intel-chipset-updater.bat) - Main batch script
+- [universal-intel-chipset-updater.ps1](src/universal-intel-chipset-updater.ps1) - Main PowerShell script  
+- [get-intel-hwids.bat](src/get-intel-hwids.bat) - Hardware ID scanner batch script
+- [get-intel-hwids.ps1](src/get-intel-hwids.ps1) - Hardware ID scanner PowerShell script
+
+`data/` - Data files
+- [intel-chipset-infs-latest.md](data/intel-chipset-infs-latest.md) - Latest INF database
+- [intel-chipset-infs-download.txt](data/intel-chipset-infs-download.txt) - Download links
+
+`docs/` - Documentation
+- [BEHIND-THE-PROJECT_EN.md](docs/BEHIND-THE-PROJECT_EN.md) - Project background (English)
+- [BEHIND-THE-PROJECT_PL.md](docs/BEHIND-THE-PROJECT_PL.md) - Project background (Polish)
+  
+- `audit-reports/` - Security audit reports
+
+  - [2025-11-21-CHATGPT-AUDIT.md](docs/audit-reports/2025-11-21-CHATGPT-AUDIT.md)
+  - [2025-11-21-CLAUDE-AUDIT.md](docs/audit-reports/2025-11-21-CLAUDE-AUDIT.md)
+  - [2025-11-21-COPILOT-AUDIT.md](docs/audit-reports/2025-11-21-COPILOT-AUDIT.md)
+  - [2025-11-21-DEEPSEEK-AUDIT.md](docs/audit-reports/2025-11-21-DEEPSEEK-AUDIT.md)
+  - [2025-11-21-GEMINI-AUDIT.md](docs/audit-reports/2025-11-21-GEMINI-AUDIT.md)
+  - [2025-11-21-GROK-AUDIT.md](docs/audit-reports/2025-11-21-GROK-AUDIT.md)
+
+`assets/` - Screenshots
+
+- [1-security.png](assets/1-security.png)
+- [2-detection.png](assets/2-detection.png)
+- [3-backup.png](assets/3-backup.png)
+- [4-install.png](assets/4-install.png)
+
+`ISSUE_TEMPLATE/` - Issue templates
+- [bug_report.md](ISSUE_TEMPLATE/bug_report.md) - Bug report template
+- [config.yml](ISSUE_TEMPLATE/config.yml) - Issue templates configuration file
+
+`/` - Root directory files
+- [CHANGELOG.md](CHANGELOG.md) - Project changelog
+- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
+- [KNOWN_ISSUES.md](KNOWN_ISSUES.md) - Known issues and workarounds
+- [LICENSE](LICENSE) - MIT License
+- [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) - Pull request template
+- [README.md](README.md) - Main project documentation
+- [SECURITY.md](SECURITY.md) - Security policy
+- [SECURITY-AUDITS.md](SECURITY-AUDITS.md) - Comprehensive security audits summary
+
+
+[↑ Back to top](#top)
+
+<a id="release-structure"></a>
+## 📦 Release Structure
+
+Each version (v10.1-2025.11.6) includes:
+
+### Primary Files
+- `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.exe` - Main executable (digitally signed)
+- `universal-intel-chipset-updater.bat` - Batch wrapper
+- `universal-intel-chipset-updater.ps1` - PowerShell script
+
+### Verification Files  
+- `ChipsetUpdater-10.1-2025.11.6-Win10-Win11.sha256` - EXE hash
+- `universal-intel-chipset-updater-10.1-2025.11.6-ps1.sha256` - PS1 script hash
+- `FirstEver.tech.cer` - Digital certificate
+
+### Documentation
+- `CHANGELOG.md` - Version history
+- `SECURITY-AUDITS.md` - Security reports
+
+
+[↑ Back to top](#top)
+
+<a id="frequently-asked-questions-faq"></a>
+## ❓ Frequently Asked Questions (FAQ)
+
+### 🤔 Is this tool safe to use?
+Yes! This tool has undergone comprehensive independent security audits by 6 different AI experts with an average score of 9.1/10. Multiple auditors confirmed it's the safest and most stable version ever released, suitable for daily use, corporate deployment, and technician toolkits.
+
+Security measures include:
+
+- Hash verification of all downloads
+- Automatic system restore points before installation
+- Official Intel drivers only from trusted sources
+- Comprehensive pre-installation checks
+
+**Version 10.1-2025.11.6** is strongly recommended by security auditors for optimal safety and performance.
+
+### 🔄 Will this update all my Intel drivers?
+This tool specifically updates chipset INF files. It does not update GPU, network, or other device drivers.
+
+### ⚠️ What are the risks?
+As with any system modification, there's a small risk of temporary system instability. The automated restore point minimizes this risk significantly.
+
+### 💾 Where are files downloaded?
+Files are temporarily stored in `C:\Windows\Temp\IntelChipset\` and automatically cleaned up after installation.
+
+### 🔧 What if something goes wrong?
+The tool creates a system restore point before making changes. You can also check detailed logs in the temp directory.
+
+### 🔄 How does the automatic update check work?
+The tool compares your current version with the latest version on GitHub. If a newer version is available, it offers to download it directly to your Downloads folder with full verification.
+
+### 🔒 What does self-hash verification do?
+Before execution, the tool calculates its own SHA-256 hash and compares it with the official hash from GitHub. This ensures the file hasn't been modified, corrupted, or tampered with.
+
+### 📧 How are updates notified?
+The tool automatically checks for updates on each run and clearly notifies you if a newer version is available, with options to continue or update.
+
+### 🏷️ Why is the certificate "not trusted"?
+The FirstEver.tech certificate is self-signed for project authenticity. Public trust requires expensive commercial certificates, but the included certificate allows verification of file origin.
+
+
+[↑ Back to top](#top)
+
+<a id="compatibility-matrix"></a>
+## 💻 Compatibility Matrix
+
+### Intel Platform Support
+| Generation | Code Name | Status | Notes |
+|------------|-----------|--------|-------|
+| 12th-14th Gen | Alder/Raptor Lake | ✅ Full | Latest support |
+| 10th-11th Gen | Comet/Tiger Lake | ✅ Full | Complete support |
+| 8th-9th Gen | Coffee/Whiskey Lake | ✅ Full | Stable support |
+| 6th-7th Gen | Skylake/Kaby Lake | ✅ Full | Mature support |
+| 4th-5th Gen | Haswell/Broadwell | ✅ Full | Legacy support |
+| 2nd-3rd Gen | Sandy/Ivy Bridge | ✅ Full | Extended support |
+
+### Windows Version Support
+| Version | Build | Status | Notes |
+|---------|-------|--------|-------|
+| Windows 11 | All builds | ✅ Full | Optimized support |
+| Windows 10 | 22H2+ | ✅ Full | Recommended |
+| Windows 10 | 21H2 | ✅ Full | Stable |
+| Windows 10 | 2004-21H1 | ✅ Full | Legacy |
+
+
+[↑ Back to top](#top)
+
+<a id="performance-metrics"></a>
+## 📊 Performance Metrics
+
+### Typical Execution Times
+| Phase | Time | Description |
+|-------|------|-------------|
+| **Verification & Update Check** | 2-5 seconds | Hash verification and version check |
+| **Hardware Detection** | 3-8 seconds | System scanning and identification |
+| **Database Download** | 5-15 seconds | Latest INF information fetch |
+| **Package Download** | 30s-3min | Driver package download (size dependent) |
+| **Installation** | 1-5 minutes | INF file installation and system update |
+
+### Resource Usage
+- **Memory**: <10MB during operation
+- **Storage**: ~5MB temporary (automatically cleaned)
+- **Network**: 3-4MB total download (depending on packages needed)
+- **CPU**: Minimal impact during scanning and installation
+
+
+[↑ Back to top](#top)
+
+<a id="known-issues"></a>
+## 🐛 Known Issues
+
+For current limitations and workarounds, please see: [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
+
+
+[↑ Back to top](#top)
+
+<a id="contributing"></a>
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit pull requests, report bugs, or suggest new features.
+
+**Areas for Contribution:**
+- Additional hardware platform support
+- Translation improvements
+- Documentation enhancements
+- Testing on various Windows versions
+
+
+[↑ Back to top](#top)
+
+<a id="license"></a>
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+[↑ Back to top](#top)
+
+<a id="acknowledgments"></a>
+## 🙏 Acknowledgments
+
+- Intel Corporation for providing official driver packages
+- Security researchers for independent audits
+- Open source community for continuous improvement
+- Beta testers for real-world validation
+
+
+[↑ Back to top](#top)
+
+<a id="important-links"></a>
+## 🔗 Important Links
+
+- [Releases](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases) - Download latest version
+- [Security Audits](SECURITY-AUDITS.md) - Full audit history  
+- [Behind the Project](docs/BEHIND-THE-PROJECT_EN.md) - Project background
+- [Issue Tracker](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues) - Report problems
+
 ---
 
-## 🔍 Reporting New Issues
 
-If you encounter a new issue not listed here, please:
+[↑ Back to top](#top)
 
-- Check if the issue is already listed in this document  
-- Open a new GitHub Issue with detailed description  
-- Include your system specifications and exact error messages  
-- Share any workarounds or solutions you've discovered  
+<a id="author-support"></a>
+## 🧑‍💻 Author & Support
+
+**Marcin Grygiel** aka FirstEver
+- 🌐 **Website**: [www.firstever.tech](https://www.firstever.tech)
+- 💼 **LinkedIn**: [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/)
+- 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
+- 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)
+
+### 💖 Support This Project
+This project is maintained in my free time. Your support helps cover development costs and server expenses.
+
+[![PayPal](https://img.shields.io/badge/PayPal-Support_Development-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=48VGDSCNJAPTJ)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Work-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)
+
+**Your support means everything!** If this project helped you, please consider:
+- Giving it a ⭐ star on GitHub
+- Sharing with friends and colleagues
+- Reporting issues or suggesting features
+- Supporting development financially
 
 ---
 
-Last Updated: 26/11/2025
+
+[↑ Back to top](#top)
+
+<a id="ready-to-update"></a>
+## 🚀 Ready to Update?
+
+### Quick Start Guide
+1. **Download** latest release from [Releases page](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases)
+2. **Verify** digital signature and hashes (optional but recommended)
+3. **Run as Administrator** for full system access  
+4. **Follow prompts** - tool handles everything automatically
+5. **Restart if prompted** to complete installation
+
+### Verification Steps (Optional)
+- Check file hashes match published SHA256 files
+- Verify digital signature with included certificate
+- Review security audit reports for confidence
+
+### Need Help?
+- 📚 [Full Documentation](docs/BEHIND-THE-PROJECT_EN.md)
+- 🐛 [Report Issues](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/issues)
+- 💬 [Community Discussions](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/discussions)
+- 🔧 [Troubleshooting Guide](KNOWN_ISSUES.md)
+- 🔒 [Security Information](SECURITY-AUDITS.md)
+
+---
+
+<div align="center">
+
+**⭐ If this project helped you, please give it a star! ⭐**
+
+*Keeping the community updated, one chipset at a time!*
+
+</div>
+
+---
+
+**Note**: This tool is provided as-is for educational and convenience purposes. While we strive for accuracy, always verify critical INF updates through official channels. The complete HWID database is available for transparency and community contributions.
+
+[↑ Back to top](#top)
