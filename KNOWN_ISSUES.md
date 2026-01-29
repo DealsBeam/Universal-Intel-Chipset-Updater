@@ -212,7 +212,7 @@ Every new large installer can be "slimmed down" and reduced to approximately 10 
 
 #### ⚠️ Make sure the new `SetupChipset.msi` and `SetupChipset1.cab` files are in the same directory when running the MSI installer.
 
-In future versions of Universal Intel Chipset Software (starting from 2026, e.g., the 10.1-2026-01.1 series), I will add the ability to install the latest reduced-size MSI versions. These versions, like the old installer, will install silently in the background and update all INF files for available Intel devices in the system. Please note that the new installer appears in the list of installed programs as `Chipset Setup`, not as `Intel(R) Chipset Device Software`.
+In future versions of Universal Intel Chipset Software (starting from 2026), I will add the ability to install the latest reduced-size MSI versions. These versions, like the old installer, will install silently in the background and update all INF files for available Intel devices in the system. Please note that the new installer appears in the list of installed programs as `Chipset Setup`, not as `Intel(R) Chipset Device Software`.
 
 [↑ Back to top](#top)
 
