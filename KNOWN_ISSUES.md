@@ -145,10 +145,9 @@ Corrupted download or temporary file conflicts.
 - Installation halts before INF processing begins
 
 <img width="503" height="396" alt="Intel_Issue" src="https://github.com/user-attachments/assets/a8e10bf2-8169-48b3-9f4f-7ab9ffcf60f2" />
-
+  
 **Cause**:  
-This issue occurs when a previous installation of *Intel Chipset Device Software* was not cleanly uninstalled or its original MSI package has become corrupted or missing.  
-This problem existed *before* using the Universal Intel Chipset Updater.
+This issue occurs when a previous installation of *Intel Chipset Device Software* was not cleanly uninstalled or its original MSI package has become corrupted or missing. This problem existed *before* using the Universal Intel Chipset Updater.
 
 **Solution**:
 
@@ -200,7 +199,7 @@ exit
 Alternatively, a small SFX installer (similar to mine) could be created to extract the archive and perform the installation, with its size not exceeding 1 MB. So why are they requiring users to download an installer that is over 100x larger?
 
 
-**Solution**:
+**Solution**:  
 Every new large installer can be "slimmed down" and reduced to approximately 10 MB by following these steps:
 
 1. Extract EXE: `SetupChipset.exe /extract`
