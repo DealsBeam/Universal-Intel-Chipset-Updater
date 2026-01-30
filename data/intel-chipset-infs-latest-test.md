@@ -195,7 +195,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | SkylakeSystem.inf | 10.1.19199.8340 | 10.1.7.4 | 06/06/2022* | 1900, 1901, 1905, 1909, 190F, 1910, 191F |
 | skylakeSystem.inf | 10.1.1.13 | 10.1.1.13 | 28/10/2015* | 1911 |
 
-#### sunrisepoint-h
+#### SunrisePoint-H
 **Generation:** 100 Series (Sunrise Point-H) - Chipset
 
 | INF | Package | Version | Date | HWIDs |
@@ -386,7 +386,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | ColetoCreekSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 23B1, 23E0 |
 
 #### Server_Common
-**Generation:** Unknown - Server
+**Generation:** Generation: Generic / Legacy Server Platforms
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
