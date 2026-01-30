@@ -215,7 +215,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | KabylakeSystem.inf | 10.1.20404.8794 | 10.1.10.5 | 07/12/2025* | 5900, 5901, 5904, 5905, 5909, 590C, 590D, 590F, 5910, 5914, 5918, 591F |
 
-#### kabylake-h
+#### Kabylake-H
 **Generation:** 7th Gen (Kaby Lake) - Mobile (H-Series)
 
 | INF | Package | Version | Date | HWIDs |
@@ -230,7 +230,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | KabyLakePCH-HSystem.inf, KabyLakePCH-HSystemLPSS.inf, KabyLakePCH-HSystemNorthpeak.inf | 10.1.20404.8794 | 10.1.11.5 | 07/12/2025* | A290, A291, A292, A293, A294, A295, A296, A297, A298, A299, A29A, A29B, A29C, A29D, A29E, A29F, A2A0, A2A1, A2A3, A2A4, A2A6, A2A7, A2A8, A2A9, A2AA, A2B3, A2C0, A2C1, A2C2, A2C3, A2C4, A2C5, A2C6, A2C7, A2C8, A2C9, A2CA, A2CB, A2CC, A2CD, A2CE, A2CF, A2D0, A2D1, A2D2, A2D3, A2D4, A2D5, A2D6, A2D7, A2D8, A2D9, A2DA, A2DB, A2DC, A2DD, A2DE, A2DF, A2E0, A2E1, A2E2, A2E3, A2E6, A2E7, A2E8, A2E9, A2EA, A2EB, A2EC, A2ED, A2EE |
 | KabyLakePCH-HSystem.inf | 10.1.1.37 | 10.1.1.36 | 30/09/2016* | A2BA, A2BB, A2BC, A2BD, A2BE |
 
-#### skylake
+#### Skylake
 **Generation:** 6th Gen (Skylake) - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
@@ -248,7 +248,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | SunrisePoint-HSystem.inf | 10.1.2.19 | 10.1.2.19 | 16/12/2015* | A131, A135 |
 | sunrisepoint-hSystem.inf | 10.1.2.10 | 10.1.2.10 | 07/08/2015* | A140, A14F, A156, A157, A158, A159, A15A, A15B, A15C, A15D, A15E, A15F |
 
-#### sunrisepoint-lp
+#### SunrisePoint-LP
 **Generation:** 100 Series (Sunrise Point-LP) - Chipset
 
 | INF | Package | Version | Date | HWIDs |
@@ -277,7 +277,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CrystalwellSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 0d00, 0d01, 0d05, 0d09 |
+| CrystalwellSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 0D00, 0D01, 0D05, 0D09 |
 
 #### LynxPoint
 **Generation:** 8 Series (Lynx Point) - Chipset
@@ -321,7 +321,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | LakeFieldSystem.inf, LakeFieldSystemLPSS.inf | 10.1.20266.8668 | 10.1.28.2 | 27/06/2025* | 9880, 9881, 9882, 9883, 9884, 9885, 9886, 9887, 9888, 9889, 988A, 988B, 988C, 988D, 988E, 988F, 9890, 9891, 9892, 9893, 9894, 9895, 9896, 9897, 9898, 9899, 989A, 989B, 989C, 989D, 989E, 989F, 98A0, 98A1, 98A4, 98A8, 98A9, 98AA, 98AB, 98B8, 98B9, 98BA, 98BB, 98BC, 98C5, 98C6, 98C7, 98E8, 98E9, 98EA, 98EB, 98EF, 98FB |
 
-#### WildcatPointLP
+#### WildcatPoint-LP
 **Generation:** Unknown - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
@@ -335,7 +335,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | Lynxpoint-HRefreshSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 8C90, 8C92, 8C94, 8C96, 8C98, 8C9A, 8C9C, 8C9E, 8CA2, 8CA4, 8CC1, 8CC2, 8CC3, 8CC4, 8CC5, 8CC6 |
 
-#### LynxPointLP
+#### LynxPoint-LP
 **Generation:** Unknown - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
@@ -353,14 +353,14 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 ### Workstation/Enthusiast
 
-#### IceLakeX
+#### IceLake-X
 **Generation:** Xeon W-3300 (Ice Lake-X) - Workstation
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
 | IceLakeXSystem.inf | 10.1.20314.8688(S) | 10.1.26.11 | 14/08/2025* | 0B00, 3349, 3440, 3441, 3442, 3443, 3445, 3446, 3447, 3448, 344a, 344b, 344c, 344d, 3450, 3451, 3452, 3455, 3458, 3459, 345a, 345b, 345c, 345d, 345e, 345F |
 
-#### HaswellE
+#### Haswell-E
 **Generation:** X99 (Haswell-E/Broadwell-E) - Enthusiast
 
 | INF | Package | Version | Date | HWIDs |
@@ -555,6 +555,10 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 **Note on package versions:** Intel occasionally releases INFs packages in two variants: consumer and server. Each variant may provide INF files for different devices. In this list, we denote the server variant with the (S) suffix to distinguish it from the consumer version.
 
-INFs marked with * indicate that no date was embedded in the INFs, so the system automatically assigned the default minimal date - 18/07/1968. An approximate release date is provided based on the certificate timestamp found in the Intel Chipset Device Software installer. Windows inbox driver INFs use the digital signature date of the corresponding .cat file.
+**Date detection logic:**
+- Dates without asterisk are taken directly from the INF file's DriverVer field
+- Dates marked with * indicate that the original INF date was invalid (e.g., 07/18/1968) or missing, so the date was taken from the corresponding .cat file:
+  - Primary source: Digital signature timestamp from the .cat file
+  - Fallback: .cat file's last modification date
 
-**Source:** [Intel Chipset INFs Updater](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/intel-chipset-infs-latest.md) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 2026-01-30
+**Source:** [Universal Intel Chipset Device Updater](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 2026-01-30
