@@ -1,4 +1,4 @@
-﻿# Intel Chipset INF Files List
+# Intel Chipset INF Files List
 
 The Intel Chipset Device Software installs the Windows INF files. An INF is a text file that provides the operating system with information about a piece of hardware on the system. In the case of the current Intel Chipset Device Software, that information is primarily the product name for the piece of hardware. This allows the operating system to show the correct name for that piece of hardware in Device Manager.
 
@@ -34,33 +34,27 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 ### Mainstream Desktop/Mobile
 
-#### PantherLake
-**Generation:** 15th Gen (Panther Lake) - Future Desktop/Mobile
-
-| INF | Package | Version | Date | HWIDs |
-|--------|---------|---------|------|--------|
-| PantherLakeSystem.inf | 10.1.20404.8794 | 10.1.56.27 | 07/12/2025* | E300, E301, E302, E303, E304, E305, E306, E307, E308, E309, E30A, E30B, E30C, E30D, E30E, E30F, E310, E311, E312, E313, E314, E315, E316, E317, E318, E319, E31A, E31B, E31C, E31D, E31E, E31F, E322, E323, E348, E35D, E362, E363, E370, E371, E37F, E400, E401, E402, E403, E404, E405, E406, E407, E408, E409, E40A, E40B, E40C, E40D, E40E, E40F, E410, E411, E412, E413, E414, E415, E416, E417, E418, E419, E41A, E41B, E41C, E41D, E41E, E41F, E422, E423, E448, E44A, E462, E463, E471 |
-
 #### ArrowLake
 **Generation:** 14th Gen (Arrow Lake) - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| ArrowLakeSystem.inf | 10.1.20404.8794 | 10.1.57.6 | 07/12/2025* | 7700, 7701, 7702, 7703, 7704, 7705, 7706, 7707, 7708, 7709, 770A, 770B, 770C, 770D, 770E, 770F, 7711, 7712, 7713, 7714, 7722, 7723, 7771 |
+| ArrowLakeSystem.inf | 10.1.20398.8776 | 10.1.57.6 | 06/11/2025* | 7700, 7701, 7702, 7703, 7704, 7705, 7706, 7707, 7708, 7709, 770A, 770B, 770C, 770D, 770E, 770F, 7711, 7712, 7713, 7714, 7722, 7723, 7771 |
 
 #### MeteorLake
 **Generation:** 14th Gen (Meteor Lake) - Mobile
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| MeteorLakeSystem.inf, MeteorLakeSystemNorthpeak.inf | 10.1.20404.8794 | 10.1.47.12 | 07/12/2025* | 7E22, 7E23, 7E24, 7E71, 7E7F, AE22, AE23, AE24 |
+| MeteorLakeSystem.inf, MeteorLakeSystemNorthpeak.inf | 10.1.20256.8665 | 10.1.47.12 | 17/06/2025* | 7E22, 7E23, 7E24, 7E71, 7E7F, AE22, AE23, AE24 |
 
 #### MeteorLakePCH-S
 **Generation:** 14th Gen (Meteor Lake) - Desktop (Windows 11 24H2 Inbox only)
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| MeteorLakePCH-SSystem.inf | 10.1.20404.8794 | 10.1.51.10 | 07/12/2025* | 7F00, 7F01, 7F02, 7F03, 7F04, 7F05, 7F06, 7F07, 7F08, 7F09, 7F0A, 7F0B, 7F0C, 7F0D, 7F0E, 7F0F, 7F10, 7F11, 7F12, 7F13, 7F14, 7F15, 7F16, 7F17, 7F18, 7F19, 7F1A, 7F1B, 7F1C, 7F1D, 7F1E, 7F1F, 7F20, 7F21, 7F23, 7F24, 7F2F, 7F58, 7F59, 7F69 |
+| MeteorLakePCH-SSystem.inf | Leak | 10.1.51.10 | 17/10/2025* | 7F00, 7F01, 7F02, 7F03, 7F04, 7F05, 7F06, 7F07, 7F08, 7F09, 7F0A, 7F0B, 7F0C, 7F0D, 7F0E, 7F0F, 7F10, 7F11, 7F12, 7F13, 7F14, 7F15, 7F16, 7F17, 7F18, 7F19, 7F1A, 7F1B, 7F1C, 7F1D, 7F1E, 7F1F |
+| MeteorLakePCH-SSystem.inf | 10.1.20256.8665 | 10.1.51.8 | 17/06/2025* | 7F20, 7F21, 7F23, 7F24, 7F2F, 7F58, 7F59, 7F69 |
 
 #### MeteorLakePCH-H
 **Generation:** 14th Gen (Meteor Lake) - Mobile (H-Series)
@@ -74,16 +68,14 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| RaptorLakeSystem.inf | 10.1.20404.8794 | 10.1.49.12 | 07/12/2025* | A70D, A72D, A74D |
-| RaptorLakeSystem.inf | 10.1.20314.8688(S) | 10.1.49.10 | 14/08/2025* | A77D |
+| RaptorLakeSystem.inf | 10.1.20256.8665 | 10.1.49.10 | 17/06/2025* | A70D, A72D, A74D, A77D |
 
 #### RaptorLakePCH-S
 **Generation:** 13th Gen (Raptor Lake) - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| RaptorLakePCH-SSystem.inf | 10.1.20404.8794 | 10.1.46.5 | 07/12/2025* | 7A00, 7A01, 7A02, 7A03, 7A04, 7A05, 7A06, 7A07, 7A08, 7A09, 7A0A, 7A0B, 7A0C, 7A0D, 7A0E, 7A0F, 7A10, 7A11, 7A12, 7A13, 7A14, 7A15, 7A16, 7A17, 7A18, 7A19, 7A1A, 7A1B, 7A1C, 7A1D, 7A1E, 7A1F, 7A20, 7A21, 7A23, 7A24, 7A26, 7A27, 7A2F, 7A30, 7A31, 7A32, 7A33, 7A34, 7A35, 7A36, 7A37, 7A38, 7A39, 7A3A, 7A3B, 7A3C, 7A3D, 7A3E, 7A3F, 7A40, 7A41, 7A42, 7A43, 7A44, 7A45, 7A46, 7A47, 7A48, 7A49, 7A4A, 7A4B |
-| RaptorLakePCH-SSystemLPSS.inf | 10.1.19627.8423 | 10.1.46.3 | 26/07/2022* | 7A28, 7A29, 7A2A, 7A2B, 7A4C, 7A4D, 7A4E, 7A4F, 7A5A, 7A5B, 7A5C, 7A5D, 7A5E, 7A5F, 7A6E, 7A6F, 7A79, 7A7A, 7A7B, 7A7C, 7A7D, 7A7E |
+| RaptorLakePCH-SSystem.inf | 10.1.20266.8668(S) | 10.1.46.5 | 27/06/2025* | 7A00, 7A01, 7A02, 7A03, 7A04, 7A05, 7A06, 7A07, 7A08, 7A09, 7A0A, 7A0B, 7A0C, 7A0D, 7A0E, 7A0F, 7A10, 7A11, 7A12, 7A13, 7A14, 7A15, 7A16, 7A17, 7A18, 7A19, 7A1A, 7A1B, 7A1C, 7A1D, 7A1E, 7A1F, 7A20, 7A21, 7A23, 7A24, 7A26, 7A27, 7A2F, 7A30, 7A31, 7A32, 7A33, 7A34, 7A35, 7A36, 7A37, 7A38, 7A39, 7A3A, 7A3B, 7A3C, 7A3D, 7A3E, 7A3F, 7A40, 7A41, 7A42, 7A43, 7A44, 7A45, 7A46, 7A47, 7A48, 7A49, 7A4A, 7A4B |
 
 #### AlderLake
 **Generation:** 12th Gen (Alder Lake) - Desktop/Mobile
@@ -105,7 +97,8 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| AlderLakePCH-SSystem.inf, AlderLakePCH-SSystemLPSS.inf | 10.1.20404.8794 | 10.1.37.5 | 07/12/2025* | 7A80, 7A81, 7A82, 7A83, 7A84, 7A85, 7A86, 7A87, 7A88, 7A89, 7A8A, 7A8B, 7A8C, 7A8D, 7A8E, 7A8F, 7A90, 7A91, 7A92, 7A93, 7A94, 7A95, 7A96, 7A97, 7A98, 7A99, 7A9A, 7A9B, 7A9C, 7A9D, 7A9E, 7A9F, 7AA0, 7AA1, 7AA3, 7AA4, 7AA7, 7AA8, 7AA9, 7AAA, 7AAB, 7AAF, 7AB0, 7AB1, 7AB2, 7AB3, 7AB4, 7AB5, 7AB6, 7AB7, 7AB8, 7AB9, 7ABA, 7ABB, 7ABC, 7ABD, 7ABE, 7ABF, 7AC0, 7AC1, 7AC2, 7AC3, 7AC4, 7AC5, 7AC6, 7AC7, 7AC8, 7AC9, 7ACA, 7ACB, 7ACC, 7ACD, 7ACE, 7ACF, 7ADA, 7ADB, 7ADC, 7ADD, 7ADE, 7ADF, 7AEE, 7AEF, 7AF9, 7AFA, 7AFB, 7AFC, 7AFD, 7AFE |
+| AlderLakePCH-SSystem.inf | 10.1.20398.8776 | 10.1.37.5 | 06/11/2025* | 7A80, 7A81, 7A82, 7A83, 7A84, 7A85, 7A86, 7A87, 7A88, 7A89, 7A8A, 7A8B, 7A8C, 7A8D, 7A8E, 7A8F, 7A90, 7A91, 7A92, 7A93, 7A94, 7A95, 7A96, 7A97, 7A98, 7A99, 7A9A, 7A9B, 7A9C, 7A9D, 7A9E, 7A9F, 7AA0, 7AA1, 7AA3, 7AA4, 7AA7, 7AAF, 7AB0, 7AB1, 7AB2, 7AB3, 7AB4, 7AB5, 7AB6, 7AB7, 7AB8, 7AB9, 7ABA, 7ABB, 7ABC, 7ABD, 7ABE, 7ABF, 7AC0, 7AC1, 7AC2, 7AC3, 7AC4, 7AC5, 7AC6, 7AC7, 7AC8, 7AC9, 7ACA, 7ACB |
+| AlderLakePCH-SSystemLPSS.inf | 10.1.20378.8757 | 10.1.37.5 | 17/10/2025* | 7AA8, 7AA9, 7AAA, 7AAB, 7ACC, 7ACD, 7ACE, 7ACF, 7ADA, 7ADB, 7ADC, 7ADD, 7ADE, 7ADF, 7AEE, 7AEF, 7AF9, 7AFA, 7AFB, 7AFC, 7AFD, 7AFE |
 
 #### AlderLakePCH-N
 **Generation:** 12th Gen (Alder Lake-N) - Low Power
@@ -119,7 +112,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| RocketLakeSystem.inf | 10.1.20404.8794 | 10.1.41.5 | 07/12/2025* | 4C01, 4C03, 4C05, 4C07, 4C09, 4C11, 4C19, 4C23, 4C33, 4C43, 4C53, 4C63 |
+| RocketLakeSystem.inf | 10.1.20266.8668(S) | 10.1.41.5 | 27/06/2025* | 4C01, 4C03, 4C05, 4C07, 4C09, 4C11, 4C19, 4C23, 4C33, 4C43, 4C53, 4C63 |
 
 #### TigerLake
 **Generation:** 11th Gen (Tiger Lake) - Mobile
@@ -141,7 +134,8 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| TigerlakePCH-LPSystem.inf, TigerlakePCH-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.24.7 | 07/12/2025* | A080, A081, A082, A083, A084, A085, A086, A087, A088, A089, A08A, A08B, A08C, A08D, A08E, A08F, A090, A091, A092, A093, A094, A095, A096, A097, A098, A099, A09A, A09B, A09C, A09D, A09E, A09F, A0A0, A0A1, A0A3, A0A4, A0A6, A0A8, A0A9, A0AC, A0AF, A0B0, A0B1, A0B2, A0B3, A0B4, A0B5, A0B6, A0B7, A0B8, A0B9, A0BA, A0BB, A0BC, A0BD, A0BE, A0BF, A0C7, A0DA, A0DB, A0DC, A0DD, A0EC, A0FD |
+| TigerlakePCH-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.24.7 | 07/12/2025* | A0A8, A0A9, A0C7, A0DA, A0DB, A0DC, A0DD, A0EC, A0FD |
+| TigerlakePCH-LPSystem.inf | 10.1.20398.8776 | 10.1.24.7 | 06/11/2025* | A080, A081, A082, A083, A084, A085, A086, A087, A088, A089, A08A, A08B, A08C, A08D, A08E, A08F, A090, A091, A092, A093, A094, A095, A096, A097, A098, A099, A09A, A09B, A09C, A09D, A09E, A09F, A0A0, A0A1, A0A3, A0A4, A0A6, A0AC, A0AF, A0B0, A0B1, A0B2, A0B3, A0B4, A0B5, A0B6, A0B7, A0B8, A0B9, A0BA, A0BB, A0BC, A0BD, A0BE, A0BF |
 | TigerlakePCH-LPSystemLPSS.inf | 10.1.18698.8258 | 10.1.24.5 | 17/07/2020* | A0AA, A0AB, A0C5, A0C6, A0D8, A0D9, A0DE, A0DF, A0E8, A0E9, A0EA, A0EB, A0FB, A0FE |
 
 #### CometLake
@@ -149,14 +143,14 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CometLakeSystem.inf | 10.1.20404.8794 | 10.1.30.4 | 07/12/2025* | 9B33, 9B43, 9B44, 9B51, 9B53, 9B54, 9B61, 9B63, 9B64, 9B71 |
+| CometLakeSystem.inf | 10.1.20398.8776 | 10.1.30.4 | 06/11/2025* | 9B33, 9B43, 9B44, 9B51, 9B53, 9B54, 9B61, 9B63, 9B64, 9B71 |
 
 #### CometLakePCH-H
 **Generation:** 10th Gen (Comet Lake) - Mobile (H-Series)
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CometLakePCH-HSystem.inf, CometLakePCH-HSystemLPSS.inf | 10.1.20404.8794 | 10.1.31.2 | 07/12/2025* | 0680, 0681, 0682, 0683, 0684, 0685, 0686, 0687, 0688, 0689, 068A, 068B, 068C, 068D, 068E, 068F, 0690, 0691, 0692, 0693, 0694, 0695, 0696, 0697, 0698, 0699, 069A, 069B, 069C, 069D, 069E, 069F, 06A0, 06A1, 06A3, 06A4, 06A6, 06A8, 06A9, 06AA, 06AB, 06AC, 06AD, 06AE, 06AF, 06B0, 06B1, 06B2, 06B3, 06B4, 06B5, 06B6, 06B7, 06B8, 06B9, 06BA, 06BB, 06BC, 06BD, 06BE, 06BF, 06C0, 06C1, 06C2, 06C3, 06C7, 06E8, 06E9, 06EA, 06EB, 06EF, 06FB |
+| CometLakePCH-HSystem.inf, CometLakePCH-HSystemLPSS.inf | 10.1.20398.8776 | 10.1.31.2 | 06/11/2025* | 0680, 0681, 0682, 0683, 0684, 0685, 0686, 0687, 0688, 0689, 068A, 068B, 068C, 068D, 068E, 068F, 0690, 0691, 0692, 0693, 0694, 0695, 0696, 0697, 0698, 0699, 069A, 069B, 069C, 069D, 069E, 069F, 06A0, 06A1, 06A3, 06A4, 06A6, 06A8, 06A9, 06AA, 06AB, 06AC, 06AD, 06AE, 06AF, 06B0, 06B1, 06B2, 06B3, 06B4, 06B5, 06B6, 06B7, 06B8, 06B9, 06BA, 06BB, 06BC, 06BD, 06BE, 06BF, 06C0, 06C1, 06C2, 06C3, 06C7, 06E8, 06E9, 06EA, 06EB, 06EF, 06FB |
 
 #### CometLakePCH-LP
 **Generation:** 10th Gen (Comet Lake) - Mobile (U-Series)
@@ -177,35 +171,39 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| IceLakePCH-LPSystem.inf, IceLakePCH-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.12.3 | 07/12/2025* | 3480, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 348A, 348B, 348C, 348D, 348E, 348F, 3490, 3491, 3492, 3493, 3494, 3495, 3496, 3497, 3498, 3499, 349A, 349B, 349C, 349D, 349E, 349F, 34A0, 34A1, 34A3, 34A4, 34A8, 34A9, 34AA, 34AB, 34B0, 34B1, 34B2, 34B3, 34B4, 34B5, 34B6, 34B7, 34B8, 34B9, 34BA, 34BB, 34BC, 34BD, 34BE, 34BF, 34C5, 34C6, 34C7, 34E8, 34E9, 34EA, 34EB, 34FB |
+| IceLakePCH-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.12.3 | 07/12/2025* | 34A8, 34A9, 34AA, 34AB, 34C5, 34C6, 34C7, 34E8, 34E9, 34EA, 34EB, 34FB |
+| IceLakePCH-LPSystem.inf | 10.1.20062.8627 | 10.1.12.3 | 05/12/2024* | 3480, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 348A, 348B, 348C, 348D, 348E, 348F, 3490, 3491, 3492, 3493, 3494, 3495, 3496, 3497, 3498, 3499, 349A, 349B, 349C, 349D, 349E, 349F, 34A0, 34A1, 34A3, 34A4, 34B0, 34B1, 34B2, 34B3, 34B4, 34B5, 34B6, 34B7, 34B8, 34B9, 34BA, 34BB, 34BC, 34BD, 34BE, 34BF |
 
 #### IceLakePCH-N
 **Generation:** 10th Gen (Ice Lake) - Low Power
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| IceLakePCH-NSystem.inf, IceLakePCH-NSystemLPSS.inf | 10.1.20404.8794 | 10.1.22.4 | 07/12/2025* | 3880, 3881, 3882, 3883, 3884, 3885, 3886, 3887, 3888, 3889, 388A, 388B, 388C, 388D, 388E, 388F, 3890, 3891, 3892, 3893, 3894, 3895, 3896, 3897, 3898, 3899, 389A, 389B, 389C, 389D, 389E, 389F, 38A0, 38A1, 38A3, 38A4, 38A6, 38A8, 38A9, 38AA, 38AB, 38B8, 38B9, 38BA, 38BB, 38BC, 38BD, 38BE, 38BF, 38C5, 38C6, 38C7, 38E8, 38E9, 38EA, 38EB, 38FB |
+| IceLakePCH-NSystem.inf, IceLakePCH-NSystemLPSS.inf | 10.1.20062.8627 | 10.1.22.4 | 05/12/2024* | 3880, 3881, 3882, 3883, 3884, 3885, 3886, 3887, 3888, 3889, 388A, 388B, 388C, 388D, 388E, 388F, 3890, 3891, 3892, 3893, 3894, 3895, 3896, 3897, 3898, 3899, 389A, 389B, 389C, 389D, 389E, 389F, 38A0, 38A1, 38A3, 38A4, 38A6, 38A8, 38A9, 38AA, 38AB, 38B8, 38B9, 38BA, 38BB, 38BC, 38BD, 38BE, 38BF, 38C5, 38C6, 38C7, 38E8, 38E9, 38EA, 38EB, 38FB |
 
 #### Coffeelake
 **Generation:** 8th/9th Gen (Coffee Lake) - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CoffeelakeSystem.inf | 10.1.20404.8794 | 10.1.14.8 | 07/12/2025* | 3E0F, 3E10, 3E18, 3E1F, 3E20, 3E30, 3E31, 3E32, 3E33, 3E34, 3E35, 3E81, 3E85, 3E89, 3EC2, 3EC4, 3EC6, 3ECA, 3ECC, 3ED0 |
+| CoffeelakeSystem.inf | 10.1.20398.8776 | 10.1.14.8 | 06/11/2025* | 3E0F, 3E10, 3E18, 3E1F, 3E20, 3E30, 3E31, 3E32, 3E33, 3E34, 3E35, 3E81, 3E85, 3E89, 3EC2, 3EC4, 3EC6, 3ECA, 3ECC, 3ED0 |
 
 #### CannonLake-H
 **Generation:** 10th Gen (Cannon Lake) - Mobile (H-Series)
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CannonLake-HSystem.inf, CannonLake-HSystemLPSS.inf | 10.1.20404.8794 | 10.1.16.8 | 07/12/2025* | A300, A301, A302, A303, A304, A305, A306, A307, A308, A309, A30A, A30B, A30C, A30D, A30E, A30F, A310, A311, A312, A313, A314, A315, A316, A317, A318, A319, A31A, A31B, A31C, A31D, A31E, A31F, A320, A321, A323, A324, A328, A329, A32A, A32B, A32C, A32D, A32E, A32F, A330, A331, A332, A333, A334, A335, A336, A337, A338, A339, A33A, A33B, A33C, A33D, A33E, A33F, A340, A341, A342, A343, A347, A368, A369, A36A, A36B, A37B |
+| CannonLake-HSystem.inf | 10.1.20404.8794 | 10.1.16.8 | 07/12/2025* | A300, A301, A302, A303, A304, A305, A306, A307, A308, A309, A30A, A30B, A30C, A30D, A30E, A30F, A310, A311, A312, A313, A314, A315, A316, A317, A318, A319, A31A, A31B, A31C, A31D, A31E, A31F, A320, A321, A323, A324, A32C, A32D, A32E, A32F, A330, A331, A332, A333, A334, A335, A336, A337, A338, A339, A33A, A33B, A33C, A33D, A33E, A33F, A340, A341, A342, A343 |
+| CannonLake-HSystemLPSS.inf | 10.1.20398.8776 | 10.1.16.8 | 06/11/2025* | A328, A329, A32A, A32B, A347, A368, A369, A36A, A36B, A37B |
 
 #### CannonLake-LP
 **Generation:** 10th Gen (Cannon Lake) - Mobile (U-Series)
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CannonLake-LPSDHost.inf, CannonLake-LPSystem.inf, CannonLake-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.15.7 | 07/12/2025* | 9D80, 9D81, 9D82, 9D83, 9D84, 9D85, 9D86, 9D87, 9D88, 9D89, 9D8A, 9D8B, 9D8C, 9D8D, 9D8E, 9D8F, 9D90, 9D91, 9D92, 9D93, 9D94, 9D95, 9D96, 9D97, 9D98, 9D99, 9D9A, 9D9B, 9D9C, 9D9D, 9D9E, 9D9F, 9DA0, 9DA1, 9DA3, 9DA4, 9DA8, 9DA9, 9DAA, 9DAB, 9DB0, 9DB1, 9DB2, 9DB3, 9DB4, 9DB5, 9DB6, 9DB7, 9DB8, 9DB9, 9DBA, 9DBB, 9DBC, 9DBD, 9DBE, 9DBF, 9DC4, 9DC5, 9DC6, 9DC7, 9DE8, 9DE9, 9DEA, 9DEB, 9DF5, 9DFB |
+| CannonLake-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.15.7 | 07/12/2025* | 9DA8, 9DA9, 9DAA, 9DAB, 9DC5, 9DC6, 9DC7, 9DE8, 9DE9, 9DEA, 9DEB, 9DFB |
+| CannonLake-LPSDHost.inf | 10.1.20398.8776 | 10.1.15.7 | 06/11/2025* | 9DC4, 9DF5 |
+| CannonLake-LPSystem.inf | 10.1.20378.8757 | 10.1.15.7 | 17/10/2025* | 9D80, 9D81, 9D82, 9D83, 9D84, 9D85, 9D86, 9D87, 9D88, 9D89, 9D8A, 9D8B, 9D8C, 9D8D, 9D8E, 9D8F, 9D90, 9D91, 9D92, 9D93, 9D94, 9D95, 9D96, 9D97, 9D98, 9D99, 9D9A, 9D9B, 9D9C, 9D9D, 9D9E, 9D9F, 9DA0, 9DA1, 9DA3, 9DA4, 9DB0, 9DB1, 9DB2, 9DB3, 9DB4, 9DB5, 9DB6, 9DB7, 9DB8, 9DB9, 9DBA, 9DBB, 9DBC, 9DBD, 9DBE, 9DBF |
 | CannonLake-LPSystemLPSS.inf | 10.1.17765.8094 | 10.1.15.4 | 21/08/2018* | 9DFC |
 
 #### Kabylake
@@ -213,7 +211,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| KabylakeSystem.inf | 10.1.20404.8794 | 10.1.10.5 | 07/12/2025* | 5900, 5901, 5904, 5905, 5909, 590C, 590D, 590F, 5910, 5914, 5918, 591F |
+| KabylakeSystem.inf | 10.1.20062.8627 | 10.1.10.5 | 05/12/2024* | 5900, 5901, 5904, 5905, 5909, 590C, 590D, 590F, 5910, 5914, 5918, 591F |
 
 #### Kabylake-H
 **Generation:** 7th Gen (Kaby Lake) - Mobile (H-Series)
@@ -222,12 +220,12 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | KabyLake-HSystem.inf, KabyLake-HSystemcAVS.inf | 10.1.1.37 | 10.1.1.36 | 01/10/2016* | A2B0, A2E4, A2E5 |
 
-#### KabyLakePCH-H
+#### kabylakepch-h
 **Generation:** 7th Gen (Kaby Lake) - Mobile (H-Series)
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| KabyLakePCH-HSystem.inf, KabyLakePCH-HSystemLPSS.inf, KabyLakePCH-HSystemNorthpeak.inf | 10.1.20404.8794 | 10.1.11.5 | 07/12/2025* | A290, A291, A292, A293, A294, A295, A296, A297, A298, A299, A29A, A29B, A29C, A29D, A29E, A29F, A2A0, A2A1, A2A3, A2A4, A2A6, A2A7, A2A8, A2A9, A2AA, A2B3, A2C0, A2C1, A2C2, A2C3, A2C4, A2C5, A2C6, A2C7, A2C8, A2C9, A2CA, A2CB, A2CC, A2CD, A2CE, A2CF, A2D0, A2D1, A2D2, A2D3, A2D4, A2D5, A2D6, A2D7, A2D8, A2D9, A2DA, A2DB, A2DC, A2DD, A2DE, A2DF, A2E0, A2E1, A2E2, A2E3, A2E6, A2E7, A2E8, A2E9, A2EA, A2EB, A2EC, A2ED, A2EE |
+| KabyLakePCH-HSystem.inf, KabyLakePCH-HSystemLPSS.inf, KabyLakePCH-HSystemNorthpeak.inf | 10.1.20003.8622 | 10.1.11.5 | 07/10/2024* | A290, A291, A292, A293, A294, A295, A296, A297, A298, A299, A29A, A29B, A29C, A29D, A29E, A29F, A2A0, A2A1, A2A3, A2A4, A2A6, A2A7, A2A8, A2A9, A2AA, A2B3, A2C0, A2C1, A2C2, A2C3, A2C4, A2C5, A2C6, A2C7, A2C8, A2C9, A2CA, A2CB, A2CC, A2CD, A2CE, A2CF, A2D0, A2D1, A2D2, A2D3, A2D4, A2D5, A2D6, A2D7, A2D8, A2D9, A2DA, A2DB, A2DC, A2DD, A2DE, A2DF, A2E0, A2E1, A2E2, A2E3, A2E6, A2E7, A2E8, A2E9, A2EA, A2EB, A2EC, A2ED, A2EE |
 | KabyLakePCH-HSystem.inf | 10.1.1.37 | 10.1.1.36 | 30/09/2016* | A2BA, A2BB, A2BC, A2BD, A2BE |
 
 #### Skylake
@@ -235,25 +233,27 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| SkylakeSystem.inf | 10.1.20404.8794 | 10.1.7.4 | 07/12/2025* | 1900, 1901, 1905, 1909, 190F, 1910, 191F |
-| SkylakeSystem.inf | 10.1.2.19 | 10.1.2.19 | 16/12/2015* | 1911 |
+| SkylakeSystem.inf | 10.1.20266.8668(S) | 10.1.7.4 | 27/06/2025* | 1900, 1901, 1905, 1909, 190F, 1910, 191F |
+| skylakeSystem.inf | 10.1.2.9 | 10.1.2.9 | 28/07/2015* | 1911 |
 
 #### SunrisePoint-H
 **Generation:** 100 Series (Sunrise Point-H) - Chipset
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| SunrisePoint-HSystem.inf, SunrisePoint-HSystemLPSS.inf | 10.1.20404.8794 | 10.1.6.3 | 07/12/2025* | A110, A111, A112, A113, A114, A115, A116, A117, A118, A119, A11A, A11B, A11C, A11D, A11E, A11F, A120, A121, A123, A124, A126, A127, A128, A129, A12A, A141, A142, A143, A144, A145, A146, A147, A148, A149, A14A, A14B, A14C, A14D, A14E, A150, A151, A152, A153, A154, A155, A160, A161, A162, A163, A166, A167, A168, A169, A16A |
-| SunrisePoint-HSystem.inf | 10.1.2.80 | 10.1.2.80 | 19/08/2016* | A130 |
-| SunrisePoint-HSystem.inf | 10.1.2.19 | 10.1.2.19 | 16/12/2015* | A131, A135 |
-| sunrisepoint-hSystem.inf | 10.1.2.10 | 10.1.2.10 | 07/08/2015* | A140, A14F, A156, A157, A158, A159, A15A, A15B, A15C, A15D, A15E, A15F |
+| SunrisePoint-HSystem.inf | 10.1.20404.8794 | 10.1.6.3 | 07/12/2025* | A110, A111, A112, A113, A114, A115, A116, A117, A118, A119, A11A, A11B, A11C, A11D, A11E, A11F, A120, A121, A123, A124, A126, A141, A142, A143, A144, A145, A146, A147, A148, A149, A14A, A14B, A14C, A14D, A14E, A150, A151, A152, A153, A154, A155, A167, A168, A169, A16A |
+| SunrisePoint-HSystemLPSS.inf | 10.1.20266.8668(S) | 10.1.6.3 | 27/06/2025* | A127, A128, A129, A12A, A160, A161, A162, A163, A166 |
+| sunrisepoint-hSystem.inf | 10.1.2.9 | 10.1.2.9 | 28/07/2015* | A131, A135, A140, A14F, A156, A157, A158, A159, A15A, A15B, A15C, A15D, A15E, A15F |
+| SunrisePoint-HSystem.inf | 10.1.2.77 | 10.1.2.77 | 03/08/2016* | A130 |
 
 #### SunrisePoint-LP
 **Generation:** 100 Series (Sunrise Point-LP) - Chipset
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| SunrisePoint-LPSDHost.inf, SunrisePoint-LPSystem.inf, SunrisePoint-LPSystemLPSS.inf | 10.1.20404.8794 | 10.1.5.3 | 07/12/2025* | 9D10, 9D11, 9D12, 9D13, 9D14, 9D15, 9D16, 9D17, 9D18, 9D19, 9D1A, 9D1B, 9D21, 9D23, 9D24, 9D27, 9D28, 9D29, 9D2A, 9D2B, 9D2D, 9D41, 9D43, 9D46, 9D48, 9D4B, 9D4E, 9D50, 9D51, 9D53, 9D56, 9D58, 9D60, 9D61, 9D62, 9D63, 9D64, 9D65, 9D66 |
+| SunrisePoint-LPSystem.inf | 10.1.20404.8794 | 10.1.5.3 | 07/12/2025* | 9D10, 9D11, 9D12, 9D13, 9D14, 9D15, 9D16, 9D17, 9D18, 9D19, 9D1A, 9D1B, 9D21, 9D23, 9D24, 9D41, 9D43, 9D46, 9D48, 9D4B, 9D4E, 9D50, 9D51, 9D53, 9D56, 9D58 |
+| SunrisePoint-LPSDHost.inf | 10.1.20398.8776 | 10.1.5.3 | 06/11/2025* | 9D2B, 9D2D |
+| SunrisePoint-LPSystemLPSS.inf | 10.1.20256.8665 | 10.1.5.3 | 17/06/2025* | 9D27, 9D28, 9D29, 9D2A, 9D60, 9D61, 9D62, 9D63, 9D64, 9D65, 9D66 |
 | SunrisePoint-LPSystem.inf | 10.1.1.37 | 10.1.1.36 | 30/09/2016* | 9D30 |
 | sunrisepoint-lpSystem.inf | 10.1.1.13 | 10.1.1.13 | 28/10/2015* | 9D26, 9D31, 9D35 |
 | sunrisepoint-lpSystem.inf | 10.1.1.12 | 10.1.1.12 | 21/09/2015* | 9D40, 9D42, 9D44, 9D45, 9D47, 9D49, 9D4A, 9D4C, 9D4D, 9D4F, 9D52, 9D54, 9D55, 9D57, 9D59, 9D5A, 9D5B, 9D5C, 9D5D, 9D5E, 9D5F |
@@ -319,7 +319,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| LakeFieldSystem.inf, LakeFieldSystemLPSS.inf | 10.1.20266.8668 | 10.1.28.2 | 27/06/2025* | 9880, 9881, 9882, 9883, 9884, 9885, 9886, 9887, 9888, 9889, 988A, 988B, 988C, 988D, 988E, 988F, 9890, 9891, 9892, 9893, 9894, 9895, 9896, 9897, 9898, 9899, 989A, 989B, 989C, 989D, 989E, 989F, 98A0, 98A1, 98A4, 98A8, 98A9, 98AA, 98AB, 98B8, 98B9, 98BA, 98BB, 98BC, 98C5, 98C6, 98C7, 98E8, 98E9, 98EA, 98EB, 98EF, 98FB |
+| LakeFieldSystem.inf, LakeFieldSystemLPSS.inf | 10.1.20256.8665 | 10.1.28.2 | 17/06/2025* | 9880, 9881, 9882, 9883, 9884, 9885, 9886, 9887, 9888, 9889, 988A, 988B, 988C, 988D, 988E, 988F, 9890, 9891, 9892, 9893, 9894, 9895, 9896, 9897, 9898, 9899, 989A, 989B, 989C, 989D, 989E, 989F, 98A0, 98A1, 98A4, 98A8, 98A9, 98AA, 98AB, 98B8, 98B9, 98BA, 98BB, 98BC, 98C5, 98C6, 98C7, 98E8, 98E9, 98EA, 98EB, 98EF, 98FB |
 
 #### WildcatPoint-LP
 **Generation:** Core 5th Gen (Broadwell) - Desktop/Mobile
@@ -328,12 +328,19 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | WildcatPointLPSystem.inf, WildcatPointLPUSB.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 9C90, 9C92, 9C94, 9C96, 9C98, 9C9A, 9CA2, 9CA4, 9CA6, 9CB1, 9CC1, 9CC2, 9CC3, 9CC5, 9CC6, 9CC7, 9CC9 |
 
-#### Lynxpoint-HRefresh
-**Generation:** Core 4th Gen (Haswell Refresh) - Desktop/Mobile
+#### Client
+**Generation:** Unknown - Unknown
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| Lynxpoint-HRefreshSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 8C90, 8C92, 8C94, 8C96, 8C98, 8C9A, 8C9C, 8C9E, 8CA2, 8CA4, 8CC1, 8CC2, 8CC3, 8CC4, 8CC5, 8CC6 |
+| PantherLakeSystem.inf | 10.1.20256.8665 | 10.1.56.21 | 17/06/2025* | E300, E301, E302, E303, E304, E305, E306, E307, E308, E309, E30A, E30B, E30C, E30D, E30E, E30F, E310, E311, E312, E313, E314, E315, E316, E317, E318, E319, E31A, E31B, E31C, E31D, E31E, E31F, E322, E323, E348, E362, E363, E37F, E400, E401, E402, E403, E404, E405, E406, E407, E408, E409, E40A, E40B, E40C, E40D, E40E, E40F, E410, E411, E412, E413, E414, E415, E416, E417, E418, E419, E41A, E41B, E41C, E41D, E41E, E41F, E422, E423, E448, E44A, E462, E463, E471 |
+
+#### Skylake-E
+**Generation:** Core 6th/7th Gen (Skylake/Kaby Lake) - Desktop/Mobile
+
+| INF | Package | Version | Date | HWIDs |
+|--------|---------|---------|------|--------|
+| Skylake-ESystem.inf | 10.1.20266.8668(S) | 10.1.8.8 | 27/06/2025* | 2014, 2015, 2016, 2018, 201A, 201C, 2020, 2021, 2024, 2025, 2026, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 203A, 203D, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 204A, 204B, 204C, 204D, 204E, 2054, 2055, 2056, 2057, 2058, 2059, 205A, 205B, 2066, 2068, 2069, 206A, 206B, 206C, 206D, 206E, 206F, 2078, 207A, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2088, 208D, 208E |
 
 #### LynxPoint-LP
 **Generation:** Core 4th Gen (Haswell) - Desktop/Mobile
@@ -342,12 +349,12 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 |--------|---------|---------|------|--------|
 | LynxPointLPSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 9C10, 9C11, 9C12, 9C13, 9C14, 9C15, 9C16, 9C17, 9C18, 9C19, 9C1A, 9C1B, 9C1C, 9C1D, 9C1E, 9C1F, 9C22, 9C23, 9C24, 9C40, 9C41, 9C42, 9C43, 9C44, 9C45, 9C46, 9C47, 9C48, 9C49, 9C4A, 9C4B, 9C4C, 9C4D, 9C4E, 9C4F, 9C50, 9C51, 9C52, 9C53, 9C54, 9C55, 9C56, 9C57, 9C58, 9C59, 9C5A, 9C5B, 9C5C, 9C5D, 9C5E, 9C5F |
 
-#### Skylake-E
-**Generation:** Core 6th/7th Gen (Skylake/Kaby Lake) - Desktop/Mobile
+#### Lynxpoint-HRefresh
+**Generation:** Core 4th Gen (Haswell Refresh) - Desktop/Mobile
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| Skylake-ESystem.inf | 10.1.20314.8688(S) | 10.1.8.8 | 14/08/2025* | 2014, 2015, 2016, 2018, 201A, 201C, 2020, 2021, 2024, 2025, 2026, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 203A, 203D, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 204A, 204B, 204C, 204D, 204E, 2054, 2055, 2056, 2057, 2058, 2059, 205A, 205B, 2066, 2068, 2069, 206A, 206B, 206C, 206D, 206E, 206F, 2078, 207A, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2088, 208D, 208E |
+| Lynxpoint-HRefreshSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 8C90, 8C92, 8C94, 8C96, 8C98, 8C9A, 8C9C, 8C9E, 8CA2, 8CA4, 8CC1, 8CC2, 8CC3, 8CC4, 8CC5, 8CC6 |
 
 
 
@@ -358,7 +365,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| IceLakeXSystem.inf | 10.1.20314.8688(S) | 10.1.26.11 | 14/08/2025* | 0B00, 3349, 3440, 3441, 3442, 3443, 3445, 3446, 3447, 3448, 344A, 344B, 344C, 344D, 3450, 3451, 3452, 3455, 3458, 3459, 345A, 345B, 345C, 345D, 345E, 345F |
+| IceLakeXSystem.inf | 10.1.19768.8554 | 10.1.26.11 | 15/02/2024* | 0B00, 3349, 3440, 3441, 3442, 3443, 3445, 3446, 3447, 3448, 344A, 344B, 344C, 344D, 3450, 3451, 3452, 3455, 3458, 3459, 345A, 345B, 345C, 345D, 345E, 345F |
 
 #### Haswell-E
 **Generation:** X99 (Haswell-E/Broadwell-E) - Enthusiast
@@ -411,7 +418,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| SapphireRapidsSystem.inf | 10.1.20404.8794 | 10.1.39.10 | 07/12/2025* | 0998, 0B23, 0B25, 0CFE, 2710, 3240, 3241, 3242, 3245, 3246, 3247, 324A, 324C, 324D, 3250, 3251, 3252, 3255, 3258, 3259, 325A, 325B, 325C, 325D, 325E, 325F |
+| SapphireRapidsSystem.inf | 10.1.20266.8668(S) | 10.1.39.10 | 27/06/2025* | 0998, 0B23, 0B25, 0CFE, 2710, 3240, 3241, 3242, 3245, 3246, 3247, 324A, 324C, 324D, 3250, 3251, 3252, 3255, 3258, 3259, 325A, 325B, 325C, 325D, 325E, 325F |
 
 #### Broadwell-DE
 **Generation:** Xeon D (Broadwell-DE) - Server
@@ -425,8 +432,8 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| LewisburgSystem.inf | 10.1.20314.8688(S) | 10.1.9.6 | 14/08/2025* | 37C8, A190, A191, A192, A193, A194, A195, A196, A197, A198, A199, A19A, A19B, A19C, A19D, A19E, A19F, A1A1, A1A3, A1A4, A1B1, A1BA, A1BB, A1BC, A1BD, A1BE, A1C0, A1C1, A1C2, A1C3, A1C4, A1C5, A1C6, A1C7, A1E7, A1E8, A1E9, A1EA, A1EC, A1ED, A1F8, A1F9, A1FC, A210, A211, A212, A213, A214, A215, A216, A217, A218, A219, A21A, A21B, A21C, A21D, A21E, A21F, A221, A223, A224, A231, A23A, A23B, A23C, A23D, A23E, A240, A241, A242, A243, A244, A245, A246, A247, A267, A268, A269, A26A, A26C, A26D, A278, A279, A27C |
-| LewisburgSystem.inf | 10.1.2.77 | 10.1.2.77 | 03/08/2016* | A1F0, A1F1 |
+| LewisburgSystem.inf | 10.1.20266.8668(S) | 10.1.9.6 | 27/06/2025* | 37C8, A190, A191, A192, A193, A194, A195, A196, A197, A198, A199, A19A, A19B, A19C, A19D, A19E, A19F, A1A1, A1A3, A1A4, A1B1, A1BA, A1BB, A1BC, A1BD, A1BE, A1C0, A1C1, A1C2, A1C3, A1C4, A1C5, A1C6, A1C7, A1E7, A1E8, A1E9, A1EA, A1EC, A1ED, A1F8, A1F9, A1FC, A210, A211, A212, A213, A214, A215, A216, A217, A218, A219, A21A, A21B, A21C, A21D, A21E, A21F, A221, A223, A224, A231, A23A, A23B, A23C, A23D, A23E, A240, A241, A242, A243, A244, A245, A246, A247, A267, A268, A269, A26A, A26C, A26D, A278, A279, A27C |
+| LewisburgSystem.inf | 10.1.2.21 | 10.1.2.21 | 23/02/2016* | A1F0, A1F1 |
 
 #### Emmitsburg
 **Generation:** C621A/C627A (Emmitsburg) - Server Chipset
@@ -434,7 +441,6 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
 | EmmitsburgSystem.inf | 10.1.20404.8794 | 10.1.40.6 | 07/12/2025* | 1B80, 1BB0, 1BB1, 1BB2, 1BB3, 1BB4, 1BB5, 1BB8, 1BB9, 1BBA, 1BBB, 1BBC, 1BBD, 1BBE, 1BBF, 1BC6, 1BC7, 1BC9, 1BCA, 1BCC, 1BCE, 1BE6, 1BFF |
-| EmmitsburgSystem.inf | 10.1.19271.8345 | 10.1.40.4 | 14/09/2022* | 1BE0, 1BE1, 1BE2, 1BE3, 1BE4, 1BE5 |
 
 #### KnightsLanding
 **Generation:** Xeon Phi (Knights Landing) - HPC
@@ -451,11 +457,11 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 | ColetoCreekSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 15/06/2021* | 23B1, 23E0 |
 
 #### Server_Common
-**Generation:** Unknown - Server
+**Generation:** Generic / Legacy Server Platforms - Server
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| Server_CommonSystem.inf | 10.1.20404.8794 | 10.1.42.12 | 07/12/2025* | 0000, 09A2, 09A3, 09A4, 09A5, 09A6, 09A7, 2880, 344F, 3457, 347A, 347B, 347C, 347D, 347E |
+| Server_CommonSystem.inf | 10.1.20266.8668(S) | 10.1.42.12 | 27/06/2025* | 0000, 09A2, 09A3, 09A4, 09A5, 09A6, 09A7, 2880, 344F, 3457, 347A, 347B, 347C, 347D, 347E |
 
 
 
@@ -466,7 +472,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| LunarLakeSystem.inf | 10.1.20404.8794 | 10.1.48.18 | 07/12/2025* | A822, A823, A848, A862, A863, A871 |
+| LunarLakeSystem.inf | 10.1.20256.8665 | 10.1.48.18 | 17/06/2025* | A822, A823, A848, A862, A863, A871 |
 
 #### ElkhartLake
 **Generation:** Atom (Elkhart Lake) - Embedded/IoT
@@ -480,28 +486,31 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| JasperLake+System.inf | 10.1.20404.8794 | 10.1.29.4 | 07/12/2025* | 4E00, 4E03, 4E10, 4E12, 4E14, 4E19, 4E20, 4E22, 4E24, 4E26, 4E28, 4E30, 4E40, 4E41, 4E50, 4E51, 4E60, 4E70, 4E71 |
+| JasperLake+System.inf | 10.1.20062.8627 | 10.1.29.4 | 05/12/2024* | 4E00, 4E03, 4E10, 4E12, 4E14, 4E19, 4E20, 4E22, 4E24, 4E26, 4E28, 4E30, 4E40, 4E41, 4E50, 4E51, 4E60, 4E70, 4E71 |
 
 #### JasperLakePCH-N
 **Generation:** Atom (Jasper Lake) - Embedded/IoT
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| JasperLakePCH-NSystem.inf, JasperLakePCH-NSystemLPSS.inf | 10.1.20404.8794 | 10.1.32.3 | 07/12/2025* | 4D80, 4D81, 4D82, 4D83, 4D84, 4D85, 4D86, 4D87, 4D88, 4D89, 4D8A, 4D8B, 4D8C, 4D8D, 4D8E, 4D8F, 4D90, 4D91, 4D92, 4D93, 4D94, 4D95, 4D96, 4D97, 4D98, 4D99, 4D9A, 4D9B, 4D9C, 4D9D, 4D9E, 4D9F, 4DA0, 4DA1, 4DA3, 4DA4, 4DA8, 4DA9, 4DAA, 4DAB, 4DAF, 4DB8, 4DB9, 4DBA, 4DBB, 4DBC, 4DBD, 4DBE, 4DBF, 4DC5, 4DC6, 4DE8, 4DE9, 4DEA, 4DEB, 4DEF, 4DFB |
+| JasperLakePCH-NSystemLPSS.inf | 10.1.20256.8665 | 10.1.32.3 | 17/06/2025* | 4DA8, 4DA9, 4DAA, 4DAB, 4DAF, 4DC5, 4DC6, 4DE8, 4DE9, 4DEA, 4DEB, 4DFB |
+| JasperLakePCH-NSystem.inf | 10.1.20003.8622 | 10.1.32.3 | 07/10/2024* | 4D80, 4D81, 4D82, 4D83, 4D84, 4D85, 4D86, 4D87, 4D88, 4D89, 4D8A, 4D8B, 4D8C, 4D8D, 4D8E, 4D8F, 4D90, 4D91, 4D92, 4D93, 4D94, 4D95, 4D96, 4D97, 4D98, 4D99, 4D9A, 4D9B, 4D9C, 4D9D, 4D9E, 4D9F, 4DA0, 4DA1, 4DA3, 4DA4, 4DB8, 4DB9, 4DBA, 4DBB, 4DBC, 4DBD, 4DBE, 4DBF, 4DEF |
 
 #### Geminilake
 **Generation:** Atom (Gemini Lake) - Embedded/IoT
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| GeminilakeSystem.inf, GeminilakeSystemLPSS.inf | 10.1.20404.8794 | 10.1.13.4 | 07/12/2025* | 3192, 31AC, 31AE, 31B0, 31B2, 31B4, 31B6, 31B8, 31BA, 31BC, 31BE, 31C0, 31C2, 31C4, 31C6, 31D4, 31D6, 31D7, 31D8, 31D9, 31DA, 31DB, 31E8, 31EE, 31F0 |
+| GeminilakeSystem.inf | 10.1.20404.8794 | 10.1.13.4 | 07/12/2025* | 3192, 31D4, 31D6, 31D7, 31D8, 31D9, 31DA, 31DB, 31E8, 31F0 |
+| GeminilakeSystemLPSS.inf | 10.1.20062.8627 | 10.1.13.4 | 05/12/2024* | 31AC, 31AE, 31B0, 31B2, 31B4, 31B6, 31B8, 31BA, 31BC, 31BE, 31C0, 31C2, 31C4, 31C6, 31EE |
 
 #### ApolloLake
 **Generation:** Atom (Apollo Lake) - Embedded/IoT
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| ApolloLakeSDHost.inf, ApolloLakeSystem.inf | 10.1.20404.8794 | 10.1.17.4 | 07/12/2025* | 5ACA, 5ACC, 5AD0, 5AD4, 5AD6, 5AD7, 5AD8, 5AD9, 5ADA, 5ADB, 5AE8, 5AF0 |
+| ApolloLakeSDHost.inf | 10.1.20404.8794 | 10.1.17.4 | 07/12/2025* | 5ACA, 5ACC, 5AD0 |
+| ApolloLakeSystem.inf | 10.1.20378.8757 | 10.1.17.4 | 17/10/2025* | 5AD4, 5AD6, 5AD7, 5AD8, 5AD9, 5ADA, 5ADB, 5AE8, 5AF0 |
 
 #### Baytrail-I
 **Generation:** Atom (Bay Trail) - Embedded/IoT
@@ -522,8 +531,8 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| DenvertonSystem.inf | 10.1.20314.8688(S) | 10.1.19.2 | 14/08/2025* | 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 198A, 198B, 198C, 198D, 198E, 198F, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 199A, 199B, 199C, 199D, 199E, 199F, 19A2, 19A4, 19A5, 19A6, 19A7, 19A8, 19A9, 19AA, 19AB, 19AC, 19D1, 19D2, 19DC, 19DE, 19DF, 19E0, 19E1, 19E2 |
-| DenvertonSystem.inf | 10.1.2.80 | 10.1.2.80 | 19/08/2016* | 19D3, 19D4, 19D6 |
+| DenvertonSystem.inf | 10.1.2.77 | 10.1.2.77 | 03/08/2016* | 19D3, 19D4, 19D6 |
+| DenvertonSystem.inf | 10.1.18981.6008 | 10.1.19.2 | 10/06/2021* | 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 198A, 198B, 198C, 198D, 198E, 198F, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 199A, 199B, 199C, 199D, 199E, 199F, 19A2, 19A4, 19A5, 19A6, 19A7, 19A8, 19A9, 19AA, 19AB, 19AC, 19D1, 19D2, 19DC, 19DE, 19DF, 19E0, 19E1, 19E2 |
 
 #### Avoton
 **Generation:** Atom Server (Avoton) - Embedded
@@ -537,7 +546,7 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 | INF | Package | Version | Date | HWIDs |
 |--------|---------|---------|------|--------|
-| CedarForkSystem.inf | 10.1.20314.8688(S) | 10.1.21.10 | 14/08/2025* | 18A0, 18A2, 18A4, 18A5, 18A6, 18A7, 18A8, 18A9, 18AA, 18AB, 18AC, 18AD, 18AE, 18AF, 18D3, 18D4, 18D6, 18D9, 18DC, 18DD, 18DE, 18DF, 18E0, 18E1, 18EC, 18EE |
+| CedarForkSystem.inf | 10.1.20266.8668(S) | 10.1.21.10 | 27/06/2025* | 18A0, 18A2, 18A4, 18A5, 18A6, 18A7, 18A8, 18A9, 18AA, 18AB, 18AC, 18AD, 18AE, 18AF, 18D3, 18D4, 18D6, 18D9, 18DC, 18DD, 18DE, 18DF, 18E0, 18E1, 18EC, 18EE |
 
 
 
@@ -562,4 +571,3 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
   - Fallback: .cat file's last modification date
 
 **Source:** [Universal Intel Chipset Device Updater](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 30-01-2026
-
