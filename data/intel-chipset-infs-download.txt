@@ -1,6 +1,6 @@
 Name = Intel Chipset Device Software
 INFVer = 20/02/2025,10.1.20404.8794
-Variant = Consumer_Future
+Variant = Consumer
 Link = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20404.8794/intel_chipset_10.1.20404.8794.zip
 Prefix = \SetupChipset.msi
 SHA256 = 1C330298E7EA44237FF3057F19750D46EA54E2E4F670FA84630E898BF6D7C671
@@ -10,7 +10,7 @@ Prefix_B = \SetupChipset.msi
 
 Name = Intel Chipset Device Software
 INFVer = 20/02/2025,10.1.20398.8776
-Variant = Consumer_Future
+Variant = Consumer
 Link = https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/releases/download/v10.1.20398.8776/intel_chipset_10.1.20398.8776.zip
 Prefix = \SetupChipset.msi
 SHA256 = 15EE2B2D00C7A1941AF4DEAA7052007898B2EBDC98053EE5C752764EBA1C9F8E
