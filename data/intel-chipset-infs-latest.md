@@ -572,3 +572,4 @@ The Intel Chipset Device Software installs the Windows INF files. An INF is a te
 
 **Source:** [Universal Intel Chipset Device Updater](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater) / **Project by:** [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/) / **Last Update:** 30-01-2026
 
+
