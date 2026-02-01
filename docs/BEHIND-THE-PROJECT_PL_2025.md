@@ -82,7 +82,7 @@ Aby znaleźć "najnowszy sterownik chipsetu Intela", musisz przeszukać 14 lat p
 
 Więc to zautomatyzowałem.
 
-<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/3a33ef63-32e8-40b7-85fb-8b9a4d467c27" />
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/28ff467e-f979-4233-885f-a2900a8b4d3e" />
 
 ---
 
