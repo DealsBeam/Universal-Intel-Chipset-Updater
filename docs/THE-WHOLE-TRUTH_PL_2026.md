@@ -130,7 +130,7 @@ Jest open source, na licencji MIT, cyfrowo podpisany i niezależnie audytowany.
 
 ## Wniosek
 
-Intel Chipset Device Software zmienia nazwy urządzeń. Robi to od 25 lat i prawdopodobnie będzie robić przez kolejne 25, bo choć Intel utrzymuje to narzędzie, działa ono w bezsensowny sposób: na nowym sprzęcie instaluje pliki INF, a na starszym tylko udaje instalację, praktycznie nie wnosząc żadnej zmiany.
+Intel Chipset Device Software zmienia nazwy urządzeń. Robi to od 25 lat i prawdopodobnie będzie robić przez kolejne 25, bo choć Intel utrzymuje to narzędzie, działa ono w bezsensowny sposób: na nowym sprzęcie instaluje pliki INF, a na starszym sprzęcie tylko udaje instalację, nie robiąc absolutnie nic.
 
 Tymczasem ja stworzyłem coś lepszego — nie dlatego, że było to technicznie trudne, ale dlatego, że faktycznie usiadłem i przemyślałem problem, rozwiązanie i sposób jego właściwej implementacji.
 
