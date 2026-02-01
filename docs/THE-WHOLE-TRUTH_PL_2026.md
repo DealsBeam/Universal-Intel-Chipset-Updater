@@ -122,7 +122,7 @@ Narzędzie zawiera rzeczy, których brak w oprogramowaniu Intela:
 - Możliwość automatycznej aktualizacji
 - Jasny podgląd, co jest instalowane i dlaczego
 - Wsparcie dla platform od Sandy Bridge (2011) po bieżącą generację
-- Poprawne obsłużenie nowych rozdmuchanych instalatorów (wyodrębnia tylko to, co potrzebne)
+- Poprawnie obsługuje nowe wersje instalatorów (wyodrębnia tylko to, co potrzebne)
 
 Jest open source, na licencji MIT, cyfrowo podpisany i niezależnie audytowany.
 
