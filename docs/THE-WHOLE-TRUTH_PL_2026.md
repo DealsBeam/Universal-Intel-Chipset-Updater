@@ -114,7 +114,7 @@ Postanowiłem faktycznie *naprawić* to prawidłowo. Nie obejść problem, nie s
 
 Efekt to [Universal Intel Chipset Device Updater](https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater).
 
-Nie tylko narzędzie działa dobrze — ale *jak* zostało zbudowane. Nie jestem programistą. To projekt hobbystyczny, stworzony od zera z użyciem AI jako partnera w rozwoju, aby rozwiązać problem, którego Intel — mimo zasobów inżynieryjnych — nigdy nie rozwiązał przez 25 lat.
+Narzędze działa, ale chyba ważniejszą rzeczą jest *jak* zostało zbudowane. Nie jestem programistą. To projekt hobbystyczny, stworzony od zera z użyciem AI jako partnera w rozwoju, aby rozwiązać problem, którego Intel — mimo zasobów inżynieryjnych — nigdy nie rozwiązał przez 25 lat.
 
 Narzędzie zawiera rzeczy, których brak w oprogramowaniu Intela:
 - Punkt przywracania systemu przed jakimikolwiek zmianami
